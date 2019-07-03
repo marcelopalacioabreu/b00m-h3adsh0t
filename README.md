@@ -22,11 +22,11 @@ Neural Network Configurable Aimbot for FPS games
     * Program takes multiple screenshots to recognize objects 
     * Different distances, lights, angles for best possible recognition 
     * Output - program writes in cfg file 
-    * Batch = 1
-    * Subdivision = 1 for testing 
-    * Graph of training/validation set 
-    * x vs y 
-    * Error Rate vs Number of Iterations in Training Set 
+      * Batch = 1
+      * Subdivision = 1 for testing 
+    * Graph of Training/Validation Set 
+      * x vs y 
+      * Error Rate vs Number of Iterations in Training Set 
 * Training depenencies - Trained files for games
     * config.json file - to change the resolution range for object recognition  
     * Train files folder
@@ -39,7 +39,7 @@ Neural Network Configurable Aimbot for FPS games
 
 ## Player Attacks 
 * Select button to attack and enable/disable training mode 
-* Custom zooming control with scroll wheel 
+* Custom Zooming Control with scroll wheel 
 * Custom cursors (laser-sight)
 * Trigger-bot
 * Auto-shoot
