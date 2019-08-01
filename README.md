@@ -50,5 +50,5 @@ Neural Network Configurable Aimbot for FPS games
 ## Other Glitches 
 * Wall glitches
 * Reduced flash 
-* Transparent buildings, ceilings, obstacles and trees
+* Transparent buildings, ceilings, obstacles, and trees
 * Display enemy lines 
