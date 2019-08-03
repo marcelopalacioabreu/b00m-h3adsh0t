@@ -1,13 +1,13 @@
-# b00m-h3adsh0t!
+# b00m-h3adsh0t! &#x1F537;
 Neural Network Configurable Aimbot for FPS games
 
-## Aimbot General
+## Aimbot General &#x1F537;
 * Trained by NN (Neural Network)
 * Customizable predictions and speed settings 
 * Select which FPS game you will use
 
 
-## Model Recognization 
+## Model Recognization  &#x1F537;
 * Custom training mode 
 * Enter to train NN to detect objects for **Object Recognition** 
 * Train with range of distances, lights, and angles for best possible recognition
@@ -16,7 +16,7 @@ Neural Network Configurable Aimbot for FPS games
 * Resolution range 
 
 
-## How it works 
+## How it works  &#x1F537;
 * Recognizes game objects in a certain range, then aims at the objects
 * Neural Network 
     * Program takes **multiple screenshots** to recognize objects 
@@ -37,7 +37,7 @@ Neural Network Configurable Aimbot for FPS games
       * GAME_last.weights 
       * GAME.weights
 
-## Player Attacks 
+## Player Attacks &#x1F537;
 * Select button to attack and enable/disable training mode 
 * Custom zooming control with scroll wheel 
 * Custom cursors 
@@ -47,7 +47,7 @@ Neural Network Configurable Aimbot for FPS games
 * Auto clicker for semi automatic weapons 
 * Dynamic recoil control  
 
-## Other Glitches 
+## Other Glitches  &#x1F537;
 * Wall glitches
 * Reduced flash 
 * Transparent buildings, ceilings, obstacles, and trees
