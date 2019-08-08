@@ -1,5 +1,5 @@
 # b00m-h3adsh0t! &#x1F537;
-Neural Network Configurable Aimbot for FPS games
+Neural Network Configurable Aimbot for FPS (First-Person-Shooter) games
 
 ## Aimbot General &#x1F537;
 * Trained by NN (Neural Network)
