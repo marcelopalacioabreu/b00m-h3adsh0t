@@ -3,7 +3,7 @@ Neural Network Configurable Aimbot for FPS games
 
 ## Aimbot General &#x1F537;
 * Trained by NN (Neural Network)
-* Customizable predictions and speed settings 
+* **Customizable** predictions and speed settings 
 * Select which FPS game you will use
 
 
@@ -24,7 +24,7 @@ Neural Network Configurable Aimbot for FPS games
     * Output - program writes in **cfg file** 
       * Batch = 1
       * Subdivision = 1 for testing 
-    * Graph of Training/Validation Set 
+    * Graph of **Training/Validation Set **
       * x vs y 
       * Error Rate vs Number of Iterations in Training Set 
 * Training depenencies - Trained files for games
@@ -38,12 +38,12 @@ Neural Network Configurable Aimbot for FPS games
       * GAME.weights
 
 ## Player Attacks &#x1F537;
-* Select button to attack and enable/disable training mode 
-* Custom zooming control with scroll wheel 
+* Select button to attack and **enable/disable training mode**
+* Custom **zooming control** with scroll wheel 
 * Custom cursors 
 * Laser sight
 * Trigger bot
-* Auto shoot
+* **Auto shoot :)** 
 * Auto clicker for semi automatic weapons 
 * Dynamic recoil control  
 
