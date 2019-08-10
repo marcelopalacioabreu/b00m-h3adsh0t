@@ -1,8 +1,8 @@
 # b00m-h3adsh0t! &#x1F537;
 Neural Network Configurable Aimbot for FPS (First-Person-Shooter) games
 
-> ┬┴┬┴┬┴┤ (҂` ﾛ ´)︻デ═一      ＼(º □ º l|l)/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴
-
+> ┬┴┬┴┬┴┤ (҂   ` ﾛ ´)︻デ═一      ＼(º □ º )/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴
+   
 ## Aimbot General &#x1F537;
 * Trained by NN (Neural Network)
 * **Customizable** predictions and speed settings 
