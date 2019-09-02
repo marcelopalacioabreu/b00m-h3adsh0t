@@ -26,7 +26,7 @@ Neural Network Configurable Aimbot for FPS (First-Person-Shooter) games
     * Output - program writes in **cfg file** 
       * Batch = 1
       * Subdivision = 1 for testing 
-    * Graph of **Training/Validation Set **
+    * Graph of **Training/Validation Set**
       * x vs y 
       * Error Rate vs Number of Iterations in Training Set 
 * Training depenencies - Trained files for games
