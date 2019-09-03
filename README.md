@@ -1,6 +1,6 @@
 # b00m-h3adsh0t! &#x1F537;
-Neural Network Configurable Aimbot for FPS (First-Person-Shooter) games
-> ┬┴┬┴┬┴┤ (҂   ` ﾛ ´)︻デ═一      ＼(º □ º )/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴
+**Neural Network Configurable Aimbot for FPS (First-Person-Shooter) games**
+> **┬┴┬┴┬┴┤ (҂   ` ﾛ ´)︻デ═一      ＼(º □ º )/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴**
 
 <div>
   
