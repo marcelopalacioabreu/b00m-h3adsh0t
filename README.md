@@ -1,4 +1,14 @@
 # b00m-h3adsh0t! &#x1F537;
+
+<div>
+  
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![GitHub Issues](https://img.shields.io/github/issues/lucylow/b00m-h3adsh0t.svg)](https://github.com/lucylow/Mrs.Robot/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/b00m-h3adsh0t.svg)](https://github.com/lucylow/b00m-h3adsh0t/pulls)
+  [![License](https://img.shields.io/bower/l/bootstrap)]()
+
+</div>
+
 Neural Network Configurable Aimbot for FPS (First-Person-Shooter) games
 
 > ┬┴┬┴┬┴┤ (҂   ` ﾛ ´)︻デ═一      ＼(º □ º )/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴
