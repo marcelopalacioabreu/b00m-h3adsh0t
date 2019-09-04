@@ -24,7 +24,7 @@
 ---
 
 ## Aimbot Neural Network &#x1F537;
-* Trained by neural network (NN) with **customizable predictions and dynamic speed settings**
+* **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
 * Engine-Aim with Colored models:
   * Hook into the half-life game engine - uses ACTUAL game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
@@ -34,11 +34,11 @@
 ---
 
 ## Model Training Recognization  &#x1F537;
-* Custom training mode - **Enter to train NN to detect objects for object recognition using computer vision algorithms** 
+* **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
-* Name-tag display to detect players 
-* Pixel memory hack
-* Resolution range 
+  * Name-tag display to detect players 
+  * Pixel memory hack
+  * Resolution range 
 
 ---
 
@@ -68,15 +68,15 @@
 ---
 
 ## Client Server Back-End Implementation &#x1F537;
+
 * Client–Server Model Method
   * **Model instantaneously calculating and sending game results** as player progresses through gameplay
-  * No information sent from client accepted by a server if it breaks game rules or basic mechanics of the game
-  * Client game sessions run synchronously on server, using same user input with client session - data is reset when the game sessions become unsynced to preventing cheating
+  * Client game sessions run synchronously with aimbot server using user input with client session
   * Two functionality options: **Run aimbot purely on  game server** OR **game server mirrors client gameplay and continuously validates game state with aimbot**
  
-* Modifying Game Rules Method 
-  * Targets servers with no rule enforcement or data integrity
-  * Synchronize all of the clients data with all of the information about all of the other clients 
+* Modifying Game Rules World Method 
+  * Aimbot targets servers with no rule enforcement or data integrity 
+  * Synchronize all client data with information about all of the other clients 
   * Hack program will reveal where all the players in the game are, what team they are on, and what state they're in — health, weapon, ammo etc
   * **Data from client will allow player to break game rules, manipulate server, or manipulate other clients**
 
