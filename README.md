@@ -56,30 +56,25 @@
 ---
 
 
-## How it Works - Aimbot &#x1F537;
+## Technical - How Aimbot Works &#x1F537;
 
 * **Aimbot can be easily toggled on and off using the mouse or keyboard**
 * Recognizes game objects in a certain range, then aims at the objects using game physics
 
 * **Game Player Detection** 
-
   * FPS game memory contains the (X,Y.Z) coordinates of each player for rendering 
   * Aimbot scans memory locations for this information 
   * Gain access to two key positions: 
-    * Player's coordinates (X,Y,Z)_player
-    * Enemies's coordinates (X,Y,Z)_coordinates
-    
+    * Player's coordinates 
+    * Enemies's coordinates
   * Subtracting the two positions as vectors ==> the vector between the two 
   * Calculate the angle from the player's current vector to the desired angle vector
 
 * **Aim Automatically**
-
   * Inject information directly to the game
-
     * DLL injection
     * Overwriting current FPS game aim functions
     * Patching in-place the Direct3D or OpenGL DLL 
-
   * Examining the functions calls to draw geometry
   * Insert own geometry functions (for things like wall-hacks or glitches)
   * Fine-tune with constants adjusting for any dynamic data structure moving players around on you
@@ -87,7 +82,7 @@
 
 ---
 
-## How it Works - Aimbot with Neural Network &#x1F537;
+## Technical - How Aimbot with Neural Network Works &#x1F537;
 
 * **Neural Network** 
 
