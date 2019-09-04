@@ -16,9 +16,9 @@
    
 ## General Aimbot &#x1F537;
 
+* **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage**
 * **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
 * Aimbot uses game data to shoot at the heads of energy targets
-* **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage**, adopted by FPS players on online games during gameplay
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
   
@@ -42,7 +42,8 @@
     *Image. Custom training mode on the aimbot with a range of functionalities*
     
 * Model Training Recognization
-  * **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
+  * **Custom training mode**
+  * Leverage neural network to detect objects for object recognition using computer vision algorithms
   * Train with range of distances, lights, and angles for best possible recognition  
 
 ---
