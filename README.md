@@ -1,7 +1,7 @@
 # b00m-h3adsh0t! &#x1F537;
 **Neural Network Configurable Aimbot for First-Person-Shooter Games** *Note: Aimbots are cheats and illegal in gaming leagues. This repo is solely for educational purposes only.*
 
-> **┬┴┬┴┬┴┤ (҂   ` ﾛ ´)︻デ═一      ＼(º □ º )/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴**
+> **┬┴┬┴┬┴┤ (҂   ` ﾛ ´)︻デ═一                          ＼(º □ º )/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴**
 
 <div>
   
@@ -28,7 +28,7 @@
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
 * Select which FPS game you will use 
 * Engine-Aim with colored models:
-  * Hook into the half-life game engine to use actual game data to auto-aim without altering gaming files
+  * Hook into the FPS game engine to use actual game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
   
