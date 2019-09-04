@@ -15,9 +15,10 @@
 ---   
    
 ## General Aimbot &#x1F537;
+
 * **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
 * Aimbot uses game data to shoot at the heads of energy targets
-* "Boom, Headshot" is a catchphrase first used by **pro gamer FPS_Doug on the web series Pure Pwnage**, adopted by FPS players on online games during gameplay
+* **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage, adopted by FPS players on online games during gameplay**
 * Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
 
 
@@ -25,6 +26,7 @@
 ---
 
 ## Aimbot Neural Network &#x1F537;
+
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
 * Select which FPS game you will use 
 * Engine-Aim with colored models:
@@ -35,8 +37,10 @@
 ---
 
 ## Model Training Recognization  &#x1F537;
+
 * **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
+
 * Aimbot functionalities:
   * Name-tag display to detect players 
   * Pixel memory hack
@@ -48,6 +52,7 @@
 ## How it Works  &#x1F537;
 * **Aimbot can be easily toggled on and off using the mouse or keyboard**
 * Recognizes game objects in a certain range, then aims at the objects
+
 * Neural Network 
     * Program takes **multiple screenshots** to recognize objects 
     * Different distances, lights, angles for best possible recognition 
@@ -55,13 +60,14 @@
       * Batch = 1
       * Subdivision = 1 for testing 
     * Graph of **Training/Validation Set**
-      * x vs y 
+      * Graph x vs y 
       * Error Rate vs Number of Iterations in Training Set 
+      
 * Training depenencies - Trained files for games
-    * **config.json file** - to change the resolution range for object recognition  
+    * Use **config.json file** to change the resolution range for object recognition  
     * Train Files Folder
-      * darknet folder/subfolders 
-      * data or back up
+      * Darknet folder/subfolders 
+      * Data or back up
       * GAME.names
       * GAME.cfg
       * GAME_last.weights 
@@ -125,13 +131,13 @@
 
 ## User Privacy &#x1F537;
 
-* End–users concerned with privacy issues
+* End–users concerned with privacy issues and "Never trust the client" is common saying with game developers 
 * VAC (Valve Anti-Cheat) accessing browsing history
+* User privacy compromised with packet interception/manipulation 
 * **Man-in-the-middle attack**
-  * Security of game circumvented by intercepting or manipulating data in real-time while transit from the client to the server or vice versa 
+  * Security of game circumvented by intercepting or manipulating data in real-time while transit from the client to the server or vice versa
   * Performed on client machine itself or via external communication proxy
-* "Never trust the client" common saying with game developers 
-* User privacy compromsed with packet interception/manipulation 
+
 
 
 
@@ -145,6 +151,9 @@
 * Instant-kill attacks
 * Laser sight
 * Trigger bot
+* Move speed
+* Ammo count
+* Player radar 
 * Auto shoot/rapid fire 
   * Most fps games limit the rate weapons are fired regardless of how fast a player presses buttons
   * Binding the firing button to the scroll wheel of a mouse
@@ -154,9 +163,7 @@
 * Dynamic recoil control  
   * Remove gun revoil game element
   * control bullet spread
-* Move speed
-* Ammo count
-* Player radar 
+
 
 ---
 
