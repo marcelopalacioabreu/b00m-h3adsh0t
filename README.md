@@ -83,14 +83,16 @@
 ## Client-Server Back-End Implementation &#x1F537;
 
 * **Client–Server Model Method**
-  * Model instantaneously calculating/sending game results as player progresses through gameplay
-  * Client game sessions run synchronously with aimbot server using user input with client session
-  * Run aimbot purely on game server or server mirrors client gameplay and continuously validates each game state
+  * Model instantaneously calculating/sending game results
+  * Client sessions run synchronously with aimbot server with user input data
+  * Run aimbot purely on game server
+  * Run server mirrors client gameplay and continuously validates each game state
  
 * **Modifying Game Rules World Method**
   * Aimbot targets servers with no rule enforcement or data integrity 
   * Synchronize all client data with information about all of the other clients 
-  * Reveals where all the players in the game are, team statuses, and user game states with information on player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more.
+   * Reveals where all the players in the game are via X,Y,Z coordinates
+   * Reveals user game states with information on player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more.
   * Data from client will allow player to break game rules, manipulate server, or manipulate other clients
 
 
@@ -196,14 +198,11 @@
   * See all players at all times and plan ahead before making a kill
   * Show all information ex: player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more
 
-  *
-  *
-
-
 
 ---
 
 ## References &#x1F537;
+
 * MultiPlayer Game Hacking - How to make a aimbot (in C) for any FPS game  https://www.mpgh.net/forum/showthread.php?t=191416
 * Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
 
