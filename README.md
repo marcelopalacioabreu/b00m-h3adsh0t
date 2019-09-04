@@ -44,14 +44,11 @@
 * **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
 
-* **Aimbot functionalities**
-  * Name-tag display to detect players 
-  * Pixel memory hack
-  * Resolution range 
+* **Large range of aimbot functionalities**
   
-      ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/gameplay1.png)
-      
-      *Image. Custom training mode on the aimbot with a range of functionalities*
+    ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/gameplay1.png)
+
+    *Image. Custom training mode on the aimbot with a range of functionalities*
 
 ---
 
@@ -197,8 +194,8 @@
 * Trigger bot
 * Move speed
 * Ammo count
-* Correcting for ping/lag
 * Player radar 
+* Name-tag display to detect players 
 * Auto shoot/rapid fire
   * Most fps games limit the rate weapons are fired regardless of how fast a player presses buttons
   * Binding the firing button to the scroll wheel of a mouse
@@ -221,6 +218,9 @@
   * Graphics driver modifications that ignore depth checking
   * Draw all objects on the screen
 * Reduced flash 
+* Correcting for ping/lag
+* Resolution range 
+* Pixel memory hack
 * Transparent buildings, ceilings, obstacles, and trees
   * Remove visual elements of the game 
   * Ex Replace opengl32.dll with one that would render polygons transparent 
