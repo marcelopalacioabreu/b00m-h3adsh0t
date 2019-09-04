@@ -16,7 +16,7 @@
 ---   
    
 ## B00m-h3adsh0t! Aimbot &#x1F537;
-* Computer game bot used in first-person shooting (FPS) games - players need to constantly move, think, strategize, and shoot enemies all at once
+* Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once
 * Aimbot uses game data to shoot at the heads of energy targets
 * Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
 
@@ -34,15 +34,6 @@
   * Gathers information from current game and pixel location
 * Select which FPS game you will use (Fortnite/CombatArms/League_of_Legends)
   
-
----
-
-## Common Anti-Cheat Software &#x1F537;
-* GameGuard
-* PunkBuster
-* Valve Anti-Cheat 
-* EasyAntiCheat
-
 ---
 
 ## Model Training Recognization  &#x1F537;
@@ -56,7 +47,7 @@
 ---
 
 
-## B00m-h3adsh0t! - How it Works  &#x1F537;
+## How it Works  &#x1F537;
 * Aimbot can be easily toggled on and off using the mouse or keyboard
 * Recognizes game objects in a certain range, then aims at the objects
 * Neural Network 
@@ -113,8 +104,6 @@
   * Performed on client machine itself or via external communication proxy
 * "Never trust the client" common saying with game developers 
 * User privacy compromsed with packet interception/manipulation 
-
-
 
 
 
