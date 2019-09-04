@@ -25,11 +25,11 @@
 
 ## Aimbot Neural Network &#x1F537;
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
+* Select which FPS game you will use (Fortnite/CombatArms/League_of_Legends)
 * Engine-Aim with colored models:
   * Hook into the half-life game engine to use actual game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
-* Select which FPS game you will use (Fortnite/CombatArms/League_of_Legends)
   
 ---
 
@@ -87,10 +87,13 @@
 
 
 ## Security and Efficiency Game Server &#x1F537;
-  * Server responsible for information security and enforcing game rules
-  * Sending game world state needed for immediate display
+
+* Server responsible for information security and enforcing game rules:
+
+  1) Sending game world state needed for immediate display
     * Results in **client lag under bandwidth constraints**
-  * Sending the player the entire world state
+    
+  2) Sending the player the entire world state
     * Results in faster display for  player under the same bandwidth constraints
     * Exposes  data to interception or manipulation
     * Trade-off between security and efficiency
@@ -99,6 +102,7 @@
 ---
 
 ## PLayer Statistics and Analytics &#x1F537;
+
 * Pattern Detection Systems 
   * Scan player's hard drives for known cheat code or programs
   * Scan player's system memory for known cheat code or programs
@@ -118,6 +122,7 @@
 ---
 
 ## User Privacy &#x1F537;
+
 * End–users concerned with privacy issues
 * VAC (Valve Anti-Cheat) accessing browsing history
 * Man-in-the-middle attack
@@ -131,6 +136,7 @@
 ---
 
 ## Player Attacks &#x1F537;
+
 * Select button to attack and enable/disable training mode
 * Custom zooming control with scroll wheel 
 * Custom cursors 
@@ -152,6 +158,7 @@
 
 
 ## Other Glitches/Modifications  &#x1F537;
+
 * Wall hacks
   * Glitches with game surfaces
   * Graphics driver modifications that ignore depth checking
