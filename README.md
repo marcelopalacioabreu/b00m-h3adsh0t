@@ -72,24 +72,50 @@
 ---
 
 ## Client Server Back-End Implementation &#x1F537;
+* Client–Server model
+  * Server is responsible for information security and enforcing game rules 
+  * Model calculating and sending game results for display on an instantantaneous basis
+  * Trusting client to calculate and display results in appropriate sequence as player progresses
+  * No information sent from client accepted by a server if it breaks game rules or basic mechanics of the game
+  * Common practice to run the client game sessions synchronously on the server, using exactly the same user input
+  * Client session is reset when the game sessions become unsynced, thereby preventing cheating.
 
 
+  
+* Back-end Hack Implementation
+  * Server with no rule enforcement or data integrity checking will synchronize all of the clients with all of the information about all of the other clients. 
+  * Any wallhack program will reveal where all the players in the game are, what team they are on, and what state they're in — health, weapon, ammo etc. 
+  * Data from client will allow a player to break the game rules, manipulate the server, and even manipulate other clients.
 
+* Two client functionality options:
+  1) Runs purely on the game server
+  2) Game server mirrors client gameplay and continuously validates game state
+
+* Modifying game software using reverse engineering  
+  * Illegal according to ULAs :(
+  * Game itself or 3rd-party protection system may detect aimbot
+  
+
+* Security vs Efficiency Server Options
+  1) Sending game world state needed for immediate display, which can result in client lag under bandwidth constraints
+  2) Sending the player the entire world state, which results in faster display for the player under the same bandwidth constraints, but exposes that data to interception or manipulation—a trade-off between security and efficiency
 
 
 ---
 
-## Game Statistics and Analytics &#x1F537;
-* Player behavior anomalie detection 
+## PLayer Statistics and Analytics &#x1F537;
+* Pattern Detection Systems 
+  * Scan player's hard drives for known cheat code or programs
+  * Scan player's system memory for known cheat code or programs
+  * Labor-intensive to constantly track down cheats and update detection patterns
+  
+* Player Behavior Anomalie Detection 
   * Detected by statistically analyzing game events 
   * Data sent by client to  server by statistical detection systems
   * Add human element of supervision system (community/admin team looks over player statistics) 
   * Unusual player behavior leads to clientside creating then uploading a gamer report
-* Pattern detection systems 
-  * Scan the player's hard drives for known cheat code or programs
-  * Scan the player's system memory for known cheat code or programs
-  * Labor-intensive to constantly track down cheats and update detection patterns
-* Anti–cheat method 
+  
+* Anti–Cheat Method 
   * Guaranteed to work on all end–user system configurations
   * Reduce the amount of false positives
 
