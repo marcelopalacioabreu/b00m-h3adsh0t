@@ -20,7 +20,6 @@
 * **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
 * Aimbot uses game data to shoot at the heads of energy targets
 * **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage**, adopted by FPS players on online games during gameplay
-*
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
   
@@ -94,7 +93,6 @@
   * Run aimbot purely on game server
   * Run server mirrors client gameplay and continuously validates each game state
  
- *
 * **Modifying Game Rules World Method**
   * Aimbot targets servers with no rule enforcement or data integrity 
   * Synchronize all client data with information about all of the other clients 
@@ -129,7 +127,11 @@
   * Scan player's hard drives for known cheat code or programs
   * Scan player's system memory for known cheat code or programs
   * Labor-intensive to constantly track down cheats and update detection patterns
-  
+
+* **Anti–Cheat Method**
+  * Guaranteed to work on all end–user system configurations
+  * Reduce the amount of false positives
+
 * **Player Behavior Anomalie Detection** 
   * Detected by statistically analyzing game events 
   * Data sent by client to  server by statistical detection systems
@@ -139,9 +141,6 @@
       
       *Image. Unusual player behavior leads to clientside creating then uploading a gamer report*
   
-* **Anti–Cheat Method**
-  * Guaranteed to work on all end–user system configurations
-  * Reduce the amount of false positives
 
 
 ---
