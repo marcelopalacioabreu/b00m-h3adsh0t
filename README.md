@@ -16,8 +16,8 @@
 ## Aimbot General &#x1F537;
 
 * Aimbot aka "auto-aim" or "trigger-bot"
-* **Computer game bot used in first-person shooting (FPS) games** that takes data from game and uses data to **shoot at the heads of energy targets**
-* In FPS games, the player need to constantly move, think, strategize, and shoot enemies all at once - **With b00m-h3adsh0t!, this problem is solved automatically**
+* Computer game bot used in first-person shooting (FPS) games that takes data from game and uses data to **shoot at the heads of energy targets
+* In FPS games the player need to constantly **move, think, strategize, and shoot enemies all at once** - with b00m-h3adsh0t!, this problem is solved automatically
 * Ex: *“Turn off the aimbot you noob hacker!"*
 
 
@@ -77,7 +77,7 @@
 * Custom cursors 
 * Laser sight
 * Trigger bot
-* **Auto shoot/rapid fire  :)** 
+* Auto shoot/rapid fire 
   * Most fps games limit the rate weapons are fired regardless of how fast a player presses buttons
   * Binding the firing button to the scroll wheel of a mouse
   * Macro setting that will simulate rapid key presses automatically
