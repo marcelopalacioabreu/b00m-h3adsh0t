@@ -36,10 +36,7 @@
   * Gathers information from current game and pixel location
 * Trained by neural network (NN)
 * **Customizable predictions and speed settings**
-* Select which FPS game you will use (examples below)
-  * Fortnite
-  * CombatArms
-  * League of Legends
+* Select which FPS game you will use (Fortnite/CombatArms/League_of_Legends)
   
 
 ---
