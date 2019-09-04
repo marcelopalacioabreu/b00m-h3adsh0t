@@ -14,7 +14,7 @@
 
 ---   
    
-## B00m-h3adsh0t! Aimbot &#x1F537;
+## General Aimbot &#x1F537;
 * Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once
 * Aimbot uses game data to shoot at the heads of energy targets
 * Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
@@ -70,19 +70,19 @@
 ---
 
 ## Client Server Back-End Implementation &#x1F537;
-* Client–Server model
-  * Model calculating and sending game results for display on an instantantaneous basis to calculate and display results in appropriate sequence as player progresses game
+* Client–Server Model Method
+  * **Model instantaneously calculating and sending game results** as player progresses through gameplay
   * No information sent from client accepted by a server if it breaks game rules or basic mechanics of the game
-  * Common practice to run the client game sessions synchronously on the server, using exactly the same user input with client session is reset when the game sessions become unsynced, thereby preventing cheating.
-  * Two client functionality options: Runs purely on the game server OR Game server mirrors client gameplay and continuously validates game state
-
-  
-* Modifying Game Software 
+  * Client game sessions run synchronously on server, using same user input with client session - data is reset when the game sessions become unsynced to preventing cheating
+  * Two functionality options: **Run aimbot purely on  game server** OR **game server mirrors client gameplay and continuously validates game state with aimbot**
+ 
+* Modifying Game Rules Method
+  * Targets servers with no rule enforcement or data integrity
+  * synchronize all of the clients data with all of the information about all of the other clients 
+  * Hack program will reveal where all the players in the game are, what team they are on, and what state they're in — health, weapon, ammo etc
+  * **Data from client will allow player to break game rules, manipulate server, or manipulate other clients**
   * Game itself or 3rd-party protection system may detect aimbot
-  * Server with no rule enforcement or data integrity checking will synchronize all of the clients with all of the information about all of the other clients. 
-  * Any hack program will reveal where all the players in the game are, what team they are on, and what state they're in — health, weapon, ammo etc. 
-  * Data from client will allow a player to break the game rules, manipulate the server, and even manipulate other clients.
-  * Illegal according to ULAs :(
+
 
   
 
@@ -90,10 +90,13 @@
 
 
 ## Security and Efficiency Game Server &#x1F537;
-  * Server responsible for information security and enforcing game rules:
-
-    1) Sending game world state needed for immediate display, which can result in client lag under bandwidth constraints
-    2) Sending the player the entire world state, which results in faster display for the player under the same bandwidth constraints, but exposes that data to interception or manipulation—a trade-off between security and efficiency
+  * Server responsible for information security and enforcing game rules
+  * Sending game world state needed for immediate display
+    * Results in **client lag under bandwidth constraints**
+  * Sending the player the entire world state
+    * Results in faster display for  player under the same bandwidth constraints
+    * Exposes  data to interception or manipulation
+    * Trade-off between security and efficiency
 
 
 ---
