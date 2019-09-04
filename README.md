@@ -14,13 +14,29 @@
 ---   
    
 ## Aimbot General &#x1F537;
-* Trained by NN (Neural Network)
-* **Customizable** predictions and speed settings 
-* Select which FPS game you will use
+
+* Aimbot aka "auto-aim" or "trigger-bot"
+* **Computer game bot used in first-person shooting (FPS) games** that takes data from game and uses data to **shoot at the heads of energy targets**
+* In FPS games, the player need to constantly move, think, strategize, and shoot enemies all at once - **With b00m-h3adsh0t!, this problem is solved automatically**
+* Ex: *“Turn off the aimbot you noob hacker!"*
+
+
 
 ---
 
-## Model Recognization  &#x1F537;
+## Aimbot Neural Network &#x1F537;
+* Trained by neural network (NN)
+* **Customizable** predictions and speed settings 
+* Select which FPS game you will use
+  * Soldier Front
+  * Fortnite
+  * CombatArms
+  * League of Legends
+  
+
+---
+
+## Model Training Recognization  &#x1F537;
 * Custom training mode 
 * Enter to train NN to detect objects for **Object Recognition** 
 * Train with range of distances, lights, and angles for best possible recognition
@@ -32,6 +48,7 @@
 
 
 ## How it works  &#x1F537;
+* Aimbot can be easily toggled on and off using the mouse or keyboard
 * Recognizes game objects in a certain range, then aims at the objects
 * Neural Network 
     * Program takes **multiple screenshots** to recognize objects 
@@ -60,15 +77,34 @@
 * Custom cursors 
 * Laser sight
 * Trigger bot
-* **Auto shoot :)** 
+* **Auto shoot/rapid fire  :)** 
+  * Most fps games limit the rate weapons are fired regardless of how fast a player presses buttons
+  * Binding the firing button to the scroll wheel of a mouse
+  * Macro setting that will simulate rapid key presses automatically
 * Auto clicker for semi automatic weapons 
 * Dynamic recoil control  
+  * Remove gun revoil game element
+  * control bullet spread
+* Move speed
+* Ammo count
+* Player radar 
 
 ---
 
 
-## Other Glitches  &#x1F537;
-* Wall glitches
+## Other Glitches/Modifications  &#x1F537;
+* Wall hacks
+  * Glitches with game surfaces
+  * Graphics driver modifications that ignore depth checking
+  * draw all objects on the screen
 * Reduced flash 
 * Transparent buildings, ceilings, obstacles, and trees
+  * Remove visual elements of the game 
 * Display enemy lines 
+* Extrasensory perception
+
+
+
+---
+
+*Note: Aimbots are cheats and illegal in gaming leagues. They give an unfair advantage to the user. This project is solely for educational purposes only.*
