@@ -43,8 +43,7 @@
 
 * **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
-
-* **Large range of aimbot functionalities**
+* Aimbot game functionalities, glitches, and player modifications
   
     ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/gameplay1.png)
 
