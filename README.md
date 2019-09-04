@@ -25,8 +25,7 @@
 
 ## Aimbot Neural Network &#x1F537;
 * Trained by neural network (NN) with **customizable predictions and dynamic speed settings**
-* Colored models 
-* Engine-Aim:
+* Engine-Aim with Colored models:
   * Hook into the half-life game engine - uses ACTUAL game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
@@ -35,8 +34,7 @@
 ---
 
 ## Model Training Recognization  &#x1F537;
-* Custom training mode 
-* **Enter to train NN to detect objects for object recognition using computer vision algorithms** 
+* Custom training mode - **Enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
 * Name-tag display to detect players 
 * Pixel memory hack
@@ -76,12 +74,11 @@
   * Client game sessions run synchronously on server, using same user input with client session - data is reset when the game sessions become unsynced to preventing cheating
   * Two functionality options: **Run aimbot purely on  game server** OR **game server mirrors client gameplay and continuously validates game state with aimbot**
  
-* Modifying Game Rules Method
+* Modifying Game Rules Method 
   * Targets servers with no rule enforcement or data integrity
-  * synchronize all of the clients data with all of the information about all of the other clients 
+  * Synchronize all of the clients data with all of the information about all of the other clients 
   * Hack program will reveal where all the players in the game are, what team they are on, and what state they're in — health, weapon, ammo etc
   * **Data from client will allow player to break game rules, manipulate server, or manipulate other clients**
-  * Game itself or 3rd-party protection system may detect aimbot
 
 
   
