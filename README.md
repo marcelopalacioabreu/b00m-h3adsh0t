@@ -14,21 +14,26 @@
 ---   
    
 ## Aimbot General &#x1F537;
-
-* Aimbot aka "auto-aim" or "trigger-bot"
 * Computer game bot used in first-person shooting (FPS) games that takes data from game and uses data to **shoot at the heads of energy targets
 * In FPS games the player need to constantly **move, think, strategize, and shoot enemies all at once** - with b00m-h3adsh0t!, this problem is solved automatically
-* Ex: *“Turn off the aimbot you noob hacker!"*
+* Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
 
 
 
 ---
 
 ## Aimbot Neural Network &#x1F537;
+* Colored models 
+* Engine-Aim:
+  * Hook into the half-life game engine - uses the ACTUAL game data to auto-aim
+  * Very dynamic and customizable 
+  * Positive virus 
+  * Does not alter gaming files 
+  * Modifies memory of RAM half-life runs on 
+  * Gathers information from current game and pixel location
 * Trained by neural network (NN)
-* **Customizable** predictions and speed settings 
-* Select which FPS game you will use
-  * Soldier Front
+* **Customizable predictions and speed settings**
+* Select which FPS game you will use (examples below)
   * Fortnite
   * CombatArms
   * League of Legends
@@ -36,12 +41,20 @@
 
 ---
 
+## Common Anti-Cheat Software &#x1F537;
+* GameGuard
+* PunkBuster
+* Valve Anti-Cheat 
+* EasyAntiCheat
+
+---
+
 ## Model Training Recognization  &#x1F537;
 * Custom training mode 
-* Enter to train NN to detect objects for **Object Recognition** 
+* **Enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
 * Name-tag display to detect players 
-* **Pixel memory** hack
+* Pixel memory hack
 * Resolution range 
 
 ---
@@ -72,8 +85,8 @@
 ---
 
 ## Player Attacks &#x1F537;
-* Select button to attack and **enable/disable training mode**
-* Custom **zooming control** with scroll wheel 
+* Select button to attack and enable/disable training mode
+* Custom zooming control with scroll wheel 
 * Custom cursors 
 * Laser sight
 * Trigger bot
