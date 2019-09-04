@@ -18,7 +18,7 @@
 
 * **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
 * Aimbot uses game data to shoot at the heads of energy targets
-* **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage, adopted by FPS players on online games during gameplay**
+* **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage**, adopted by FPS players on online games during gameplay
 * Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
 
 
@@ -29,7 +29,7 @@
 
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
 * Select which FPS game you will use 
-* Engine-Aim with colored models:
+* **Engine-Aim with colored models:**
   * Hook into the FPS game engine to use actual game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
@@ -41,7 +41,7 @@
 * **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
 
-* Aimbot functionalities:
+* **Aimbot functionalities**
   * Name-tag display to detect players 
   * Pixel memory hack
   * Resolution range 
@@ -53,7 +53,8 @@
 * **Aimbot can be easily toggled on and off using the mouse or keyboard**
 * Recognizes game objects in a certain range, then aims at the objects
 
-* Neural Network 
+* **Neural Network** 
+
     * Program takes **multiple screenshots** to recognize objects 
     * Different distances, lights, angles for best possible recognition 
     * Output - program writes in **cfg file** 
@@ -63,7 +64,8 @@
       * Graph x vs y 
       * Error Rate vs Number of Iterations in Training Set 
       
-* Training depenencies - Trained files for games
+* **Training Depenencies - Trained Files for Games**
+
     * Use **config.json file** to change the resolution range for object recognition  
     * Train Files Folder
       * Darknet folder/subfolders 
@@ -98,10 +100,10 @@
 
 * Server responsible for information security and enforcing game rules
 
-* **Sending game world state needed for immediate display**
+* **Sending Game World State needed for Immediate Display**
   * Results in client lag under bandwidth constraints
 
-* **Sending the player the entire world state**
+* **Sending the Player the Entire World State**
   * Results in faster display for  player under the same bandwidth constraints
   * Exposes  data to interception or manipulation
   * Trade-off between security and efficiency
@@ -134,7 +136,7 @@
 * End–users concerned with privacy issues and "Never trust the client" is common saying with game developers 
 * VAC (Valve Anti-Cheat) accessing browsing history
 * User privacy compromised with packet interception/manipulation 
-* **Man-in-the-middle attack**
+* **Man-in-the-Middle Attack**
   * Security of game circumvented by intercepting or manipulating data in real-time while transit from the client to the server or vice versa
   * Performed on client machine itself or via external communication proxy
 
