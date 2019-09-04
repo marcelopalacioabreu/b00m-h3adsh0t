@@ -15,10 +15,9 @@
 
 ---   
    
-## B00m-h3adsh0t! Aimbot General &#x1F537;
-* Computer game bot used in first-person shooting (FPS) games
-* Uses game data to shoot at the heads of energy targets
-* Game shooters need to constantly move, think, strategize, and shoot enemies all at once
+## B00m-h3adsh0t! Aimbot &#x1F537;
+* Computer game bot used in first-person shooting (FPS) games - players need to constantly move, think, strategize, and shoot enemies all at once
+* Aimbot uses game data to shoot at the heads of energy targets
 * Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
 
 
@@ -26,16 +25,13 @@
 ---
 
 ## Aimbot Neural Network &#x1F537;
+* Trained by neural network (NN)
+* **Customizable predictions and dynamic speed settings**
 * Colored models 
-* B00m-h3adsh0t! Engine-Aim:
-  * Hook into the half-life game engine - uses the ACTUAL game data to auto-aim
-  * Very dynamic and customizable 
-  * Positive virus 
-  * Does not alter gaming files 
+* Engine-Aim:
+  * Hook into the half-life game engine - uses ACTUAL game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
-* Trained by neural network (NN)
-* **Customizable predictions and speed settings**
 * Select which FPS game you will use (Fortnite/CombatArms/League_of_Legends)
   
 
