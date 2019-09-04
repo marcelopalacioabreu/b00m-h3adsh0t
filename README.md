@@ -62,22 +62,20 @@
 * Recognizes game objects in a certain range, then aims at the objects using game physics
 
 * **Game Player Detection** 
-  * FPS game memory contains the (X,Y.Z) coordinates of each player for rendering 
+  * FPS game memory contains the **(X,Y,Z) coordinates of each player for rendering**
   * Aimbot scans memory locations for this information 
-  * Gain access to two key positions: 
-    * Player's coordinates 
-    * Enemies's coordinates
-  * Subtracting the two positions as vectors ==> the vector between the two 
-  * Calculate the angle from the player's current vector to the desired angle vector
+  * **Gain access to two key positions** - the player and enemies coordinates 
+  * Subtracting the two positions as vectors == the vector between the two 
+  * Calculate the **angle from the player's current vector to the desired angle vector**
 
 * **Aim Automatically**
   * Inject information directly to the game
     * DLL injection
-    * Overwriting current FPS game aim functions
+    * **Overwriting current FPS game aim functions**
     * Patching in-place the Direct3D or OpenGL DLL 
-  * Examining the functions calls to draw geometry
+  * Examining the **functions calls to draw geometry**
   * Insert own geometry functions (for things like wall-hacks or glitches)
-  * Fine-tune with constants adjusting for any dynamic data structure moving players around on you
+  * Fine-tune with constants adjusting for any **dynamic data structure moving players** around on you
 
 
 ---
@@ -115,7 +113,7 @@
 * **Client–Server Model Method**
 
   * Model instantaneously calculating/sending game results
-  * Client sessions run synchronously with aimbot server with user input data
+  * **Client sessions run synchronously with aimbot server with user input data**
   * Run aimbot purely on game server
   * Run server mirrors client gameplay and continuously validates each game state
  
@@ -123,7 +121,7 @@
 
   * Aimbot targets servers with no rule enforcement or data integrity 
   * **Synchronize all client data with information about all of the other clients** 
-    * Reveals where all the players in the game are via X,Y,Z coordinates
+    * Reveals where all the players in the game are via (X,Y,Z) coordinates
     * Reveals user game states with information on player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more.
   * Data from client will allow player to break game rules, manipulate server, or manipulate other clients
 
