@@ -8,7 +8,6 @@
   [![Status](https://img.shields.io/badge/status-work--in--progress-success.svg)]()
   [![GitHub Issues](https://img.shields.io/github/issues/lucylow/b00m-h3adsh0t.svg)](https://github.com/lucylow/Mrs.Robot/issues)
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/b00m-h3adsh0t.svg)](https://github.com/lucylow/b00m-h3adsh0t/pulls)
-  *
   [![License](https://img.shields.io/bower/l/bootstrap)]()
 
 </div>
@@ -52,7 +51,7 @@
   
       ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/gameplay1.png)
       
-      *Image. Aimbot functionalities.*
+      *Image. Custom training mode on the aimbot with a range of functionalities.*
 
 ---
 
@@ -68,7 +67,7 @@
     * Subtracting the two positions as vectors gives the vector between the two 
     * Calculate the angle from the player's current look vector to the desired angle vector
     
-  **Aim Automatically**
+  * **Aim Automatically**
     * Inject information directly to the game
       * DLL injection
       * Overwriting current FPS game aim functions
