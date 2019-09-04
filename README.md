@@ -17,8 +17,8 @@
 ## General Aimbot &#x1F537;
 
 * **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage**
-* **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
-* Aimbot uses game data to shoot at the heads of energy targets
+* Game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once
+* Aimbot uses game data to automatically shoot at the heads of energy targets
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
   
