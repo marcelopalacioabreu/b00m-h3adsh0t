@@ -83,14 +83,14 @@
 ## Client-Server Back-End Implementation &#x1F537;
 
 * **Client–Server Model Method**
-  * Model instantaneously calculating and sending game results as player progresses through gameplay
+  * Model instantaneously calculating/sending game results as player progresses through gameplay
   * Client game sessions run synchronously with aimbot server using user input with client session
-   * Run aimbot purely on  game server or server mirrors client gameplay and continuously validates each game state with aimbot
+  * Run aimbot purely on game server or server mirrors client gameplay and continuously validates each game state
  
 * **Modifying Game Rules World Method**
   * Aimbot targets servers with no rule enforcement or data integrity 
   * Synchronize all client data with information about all of the other clients 
-  * Reveals where all the players in the game are, team statuses, and user game states with information on health, weapons, ammo, and etc
+  * Reveals where all the players in the game are, team statuses, and user game states with information on health, weapons, and ammo
   * Data from client will allow player to break game rules, manipulate server, or manipulate other clients
 
 
@@ -136,7 +136,7 @@
 
 ## User Privacy &#x1F537;
 
-* End–users concerned with privacy issues and "Never trust the client" is common saying with game developers 
+* **End–users concerned with privacy issues and "Never trust the client" is common saying with game developers**
 * VAC (Valve Anti-Cheat) accessing browsing history
 * User privacy compromised with packet interception/manipulation 
 * **Man-in-the-Middle Attack**
@@ -150,7 +150,7 @@
 
 ## Player Attacks &#x1F537;
 
-* Select button to attack and enable/disable training mode
+* **Select button to attack and enable/disable training mode**
 * Custom zooming control with scroll wheel 
 * Custom cursors 
 * Laser sight
