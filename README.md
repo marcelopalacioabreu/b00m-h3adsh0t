@@ -95,9 +95,9 @@
  
 * **Modifying Game Rules World Method**
   * Aimbot targets servers with no rule enforcement or data integrity 
-  * Synchronize all client data with information about all of the other clients 
-   * Reveals where all the players in the game are via X,Y,Z coordinates
-   * Reveals user game states with information on player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more.
+  * **Synchronize all client data with information about all of the other clients** 
+    * Reveals where all the players in the game are via X,Y,Z coordinates
+    * Reveals user game states with information on player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more.
   * Data from client will allow player to break game rules, manipulate server, or manipulate other clients
 
 
