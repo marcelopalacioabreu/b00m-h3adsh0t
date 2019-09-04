@@ -19,7 +19,9 @@
 * **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
 * Aimbot uses game data to shoot at the heads of energy targets
 * **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage**, adopted by FPS players on online games during gameplay
-* Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
+
+  ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
+  *Image. “Turn off the aimbot you noob K/D ratio hacker!"*
 
 
 
