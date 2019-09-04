@@ -15,7 +15,7 @@
 ---   
    
 ## General Aimbot &#x1F537;
-* Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once
+* **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
 * Aimbot uses game data to shoot at the heads of energy targets
 * Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
 
@@ -25,7 +25,7 @@
 
 ## Aimbot Neural Network &#x1F537;
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
-* Select which FPS game you will use (Fortnite/CombatArms/League_of_Legends)
+* Select which FPS game you will use (Ex: Fortnite, CombatArms, or League_of_Legends)
 * Engine-Aim with colored models:
   * Hook into the half-life game engine to use actual game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
@@ -44,7 +44,7 @@
 
 
 ## How it Works  &#x1F537;
-* Aimbot can be easily toggled on and off using the mouse or keyboard
+* **Aimbot can be easily toggled on and off using the mouse or keyboard**
 * Recognizes game objects in a certain range, then aims at the objects
 * Neural Network 
     * Program takes **multiple screenshots** to recognize objects 
@@ -67,17 +67,19 @@
 
 ---
 
-## Client Server Back-End Implementation &#x1F537;
+## Client-Server Back-End Implementation &#x1F537;
 
 * Client–Server Model Method
   * **Model instantaneously calculating and sending game results** as player progresses through gameplay
   * Client game sessions run synchronously with aimbot server using user input with client session
-  * Two functionality options: **Run aimbot purely on  game server** OR **game server mirrors client gameplay and continuously validates game state with aimbot**
+  * Two functionality options: 
+   * **Run aimbot purely on  game server**
+   * **game server mirrors client gameplay and continuously validates game state with aimbot**
  
 * Modifying Game Rules World Method 
   * Aimbot targets servers with no rule enforcement or data integrity 
   * Synchronize all client data with information about all of the other clients 
-  * Hack program will reveal where all the players in the game are, what team they are on, and what state they're in — health, weapon, ammo etc
+  * Hack program will reveal where all the players in the game are, team status, and game state with information on health HP, weapon, ammo, and etc
   * **Data from client will allow player to break game rules, manipulate server, or manipulate other clients**
 
 
@@ -88,20 +90,20 @@
 
 ## Security and Efficiency Game Server &#x1F537;
 
-* Server responsible for information security and enforcing game rules:
+* Server responsible for information security and enforcing game rules
 
-  1) Sending game world state needed for immediate display
-    * Results in **client lag under bandwidth constraints**
-    
-  2) Sending the player the entire world state
-    * Results in faster display for  player under the same bandwidth constraints
-    * Exposes  data to interception or manipulation
-    * Trade-off between security and efficiency
+* Sending game world state needed for immediate display
+  * Results in client lag under bandwidth constraints
+
+* Sending the player the entire world state
+  * Results in faster display for  player under the same bandwidth constraints
+  * Exposes  data to interception or manipulation
+  * Trade-off between security and efficiency
 
 
 ---
 
-## PLayer Statistics and Analytics &#x1F537;
+## Player Behavior Statistics &#x1F537;
 
 * Pattern Detection Systems 
   * Scan player's hard drives for known cheat code or programs
