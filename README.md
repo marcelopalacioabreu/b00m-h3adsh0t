@@ -25,7 +25,7 @@
 
 ## Aimbot Neural Network &#x1F537;
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
-* Select which FPS game you will use (Ex: Fortnite, CombatArms, or League_of_Legends)
+* Select which FPS game you will use 
 * Engine-Aim with colored models:
   * Hook into the half-life game engine to use actual game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
@@ -36,6 +36,7 @@
 ## Model Training Recognization  &#x1F537;
 * **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
 * Train with range of distances, lights, and angles for best possible recognition
+* Aimbot functionalities:
   * Name-tag display to detect players 
   * Pixel memory hack
   * Resolution range 
@@ -69,18 +70,16 @@
 
 ## Client-Server Back-End Implementation &#x1F537;
 
-* Client–Server Model Method
-  * **Model instantaneously calculating and sending game results** as player progresses through gameplay
+* **Client–Server Model Method**
+  * Model instantaneously calculating and sending game results as player progresses through gameplay
   * Client game sessions run synchronously with aimbot server using user input with client session
-  * Two functionality options: 
-   * **Run aimbot purely on  game server**
-   * **game server mirrors client gameplay and continuously validates game state with aimbot**
+   * Run aimbot purely on  game server or server mirrors client gameplay and continuously validates each game state with aimbot
  
-* Modifying Game Rules World Method 
+* **Modifying Game Rules World Method**
   * Aimbot targets servers with no rule enforcement or data integrity 
   * Synchronize all client data with information about all of the other clients 
-  * Hack program will reveal where all the players in the game are, team status, and game state with information on health HP, weapon, ammo, and etc
-  * **Data from client will allow player to break game rules, manipulate server, or manipulate other clients**
+  * Reveals where all the players in the game are, team statuses, and user game states with information on health, weapons, ammo, and etc
+  * Data from client will allow player to break game rules, manipulate server, or manipulate other clients
 
 
   
@@ -92,10 +91,10 @@
 
 * Server responsible for information security and enforcing game rules
 
-* Sending game world state needed for immediate display
+* **Sending game world state needed for immediate display**
   * Results in client lag under bandwidth constraints
 
-* Sending the player the entire world state
+* **Sending the player the entire world state**
   * Results in faster display for  player under the same bandwidth constraints
   * Exposes  data to interception or manipulation
   * Trade-off between security and efficiency
@@ -105,18 +104,18 @@
 
 ## Player Behavior Statistics &#x1F537;
 
-* Pattern Detection Systems 
+* **Pattern Detection Systems**
   * Scan player's hard drives for known cheat code or programs
   * Scan player's system memory for known cheat code or programs
   * Labor-intensive to constantly track down cheats and update detection patterns
   
-* Player Behavior Anomalie Detection 
+* **Player Behavior Anomalie Detection** 
   * Detected by statistically analyzing game events 
   * Data sent by client to  server by statistical detection systems
   * Add human element of supervision system (community/admin team looks over player statistics) 
   * Unusual player behavior leads to clientside creating then uploading a gamer report
   
-* Anti–Cheat Method 
+* **Anti–Cheat Method**
   * Guaranteed to work on all end–user system configurations
   * Reduce the amount of false positives
 
@@ -127,7 +126,7 @@
 
 * End–users concerned with privacy issues
 * VAC (Valve Anti-Cheat) accessing browsing history
-* Man-in-the-middle attack
+* **Man-in-the-middle attack**
   * Security of game circumvented by intercepting or manipulating data in real-time while transit from the client to the server or vice versa 
   * Performed on client machine itself or via external communication proxy
 * "Never trust the client" common saying with game developers 
