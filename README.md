@@ -25,8 +25,8 @@
 
 ## Aimbot Neural Network &#x1F537;
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
-* Engine-Aim with Colored models:
-  * Hook into the half-life game engine - uses ACTUAL game data to auto-aim without altering gaming files
+* Engine-Aim with colored models:
+  * Hook into the half-life game engine to use actual game data to auto-aim without altering gaming files
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
 * Select which FPS game you will use (Fortnite/CombatArms/League_of_Legends)
