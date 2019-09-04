@@ -48,6 +48,8 @@
   * Name-tag display to detect players 
   * Pixel memory hack
   * Resolution range 
+  
+  ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/gameplay1.png)
 
 ---
 
@@ -128,6 +130,8 @@
   * Data sent by client to  server by statistical detection systems
   * Add human element of supervision system (community/admin team looks over player statistics) 
   * Unusual player behavior leads to clientside creating then uploading a gamer report
+  
+  ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/gameplay2.png)
   
 * **Anti–Cheat Method**
   * Guaranteed to work on all end–user system configurations
