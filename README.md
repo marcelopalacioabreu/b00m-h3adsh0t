@@ -54,7 +54,7 @@
 
 ## How it Works  &#x1F537;
 * **Aimbot can be easily toggled on and off using the mouse or keyboard**
-* Recognizes game objects in a certain range, then aims at the objects
+* Recognizes game objects in a certain range, then aims at the objects using game physics
 
 * **Neural Network** 
 
@@ -90,7 +90,7 @@
 * **Modifying Game Rules World Method**
   * Aimbot targets servers with no rule enforcement or data integrity 
   * Synchronize all client data with information about all of the other clients 
-  * Reveals where all the players in the game are, team statuses, and user game states with information on health, weapons, and ammo
+  * Reveals where all the players in the game are, team statuses, and user game states with information on player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more.
   * Data from client will allow player to break game rules, manipulate server, or manipulate other clients
 
 
@@ -140,8 +140,12 @@
 * VAC (Valve Anti-Cheat) accessing browsing history
 * User privacy compromised with packet interception/manipulation 
 * **Man-in-the-Middle Attack**
+  * Reverse engineer the network packet formatting
   * Security of game circumvented by intercepting or manipulating data in real-time while transit from the client to the server or vice versa
   * Performed on client machine itself or via external communication proxy
+  * Can provide player positions and other useful related information
+  * Forged packets sent to server to move the player, shoot, or other game actions
+
 
 
 
@@ -157,15 +161,18 @@
 * Trigger bot
 * Move speed
 * Ammo count
+* Correcting for ping/lag
 * Player radar 
-* Auto shoot/rapid fire 
+* Auto shoot/rapid fire
   * Most fps games limit the rate weapons are fired regardless of how fast a player presses buttons
   * Binding the firing button to the scroll wheel of a mouse
   * Macro setting that will simulate rapid key presses automatically
+  * Set aiming speed and shooting delay
 * Auto clicker for semi automatic weapons 
 * Dynamic recoil control  
   * Remove gun revoil game element
   * Control bullet spread
+  * Correcting for bullet drop
 
 
 ---
@@ -180,9 +187,23 @@
 * Reduced flash 
 * Transparent buildings, ceilings, obstacles, and trees
   * Remove visual elements of the game 
+  * Ex Replace opengl32.dll with one that would render polygons transparent 
+
 * Display enemy lines 
-* Extrasensory perception
+* Extrasensory perception (ESP)
+  * Display all the enemy positions on the map
+  * Glowing or lighted players, weapons, and loot. 
+  * See all players at all times and plan ahead before making a kill
+  * Show all information ex: player names, position, clip ammo, ammo count, health, class, weapons, frame rate and more
+
+  *
+  *
 
 
 
 ---
+
+## References &#x1F537;
+* MultiPlayer Game Hacking - How to make a aimbot (in C) for any FPS game  https://www.mpgh.net/forum/showthread.php?t=191416
+* Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
+
