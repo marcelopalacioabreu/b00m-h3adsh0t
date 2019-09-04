@@ -61,6 +61,23 @@
 * **Aimbot can be easily toggled on and off using the mouse or keyboard**
 * Recognizes game objects in a certain range, then aims at the objects using game physics
 
+  * **Game Player Detection** 
+    * In the game memory is the X,Y, and Z coordinates of each player for rendering 
+    * Aimbot scans memory locations for this information and stores the game information
+    * Access to two positions--the player's and the enemies
+    * Subtracting the two positions as vectors gives the vector between the two 
+    * Calculate the angle from the player's current look vector to the desired angle vector
+    
+  **Aim Automatically**
+    * Inject information directly to the game
+      * DLL injection
+      * Overwriting current FPS game aim functions
+      * Patching in-place the Direct3D or OpenGL DLL 
+    * Examining the functions calls to draw geometry
+    * Inserting b00m-h3adsh0t's own geometry functions (for things like wall-hacks or glitches)
+    * Fine-tune with some constants adjusting for any dynamic data structure moving players around on you
+
+
 * **Neural Network** 
 
     * Program takes **multiple screenshots** to recognize objects 
@@ -87,13 +104,17 @@
 
 ## Client-Server Back-End Implementation &#x1F537;
 
+* Computer has to display the gameplay to the user by rendering the whole map and every player in it
+
 * **Client–Server Model Method**
+
   * Model instantaneously calculating/sending game results
   * Client sessions run synchronously with aimbot server with user input data
   * Run aimbot purely on game server
   * Run server mirrors client gameplay and continuously validates each game state
  
 * **Modifying Game Rules World Method**
+
   * Aimbot targets servers with no rule enforcement or data integrity 
   * **Synchronize all client data with information about all of the other clients** 
     * Reveals where all the players in the game are via X,Y,Z coordinates
