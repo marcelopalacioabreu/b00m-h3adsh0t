@@ -37,17 +37,13 @@
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
   
----
-
-## Model Training Recognization  &#x1F537;
-
-* **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
-* Train with range of distances, lights, and angles for best possible recognition
-* Aimbot game functionalities, glitches, and player modifications
-  
     ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/gameplay1.png)
 
     *Image. Custom training mode on the aimbot with a range of functionalities*
+    
+* Model Training Recognization
+  * **Custom training mode - enter to train NN to detect objects for object recognition using computer vision algorithms** 
+  * Train with range of distances, lights, and angles for best possible recognition  
 
 ---
 
