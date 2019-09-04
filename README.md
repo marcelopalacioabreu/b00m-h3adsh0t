@@ -17,6 +17,7 @@
 ## General Aimbot &#x1F537;
 * **Game bot used in first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once**
 * Aimbot uses game data to shoot at the heads of energy targets
+* "Boom, Headshot" is a catchphrase first used by **pro gamer FPS_Doug on the web series Pure Pwnage**, adopted by FPS players on online games during gameplay
 * Ex: *“Turn off the aimbot you noob K/D ratio hacker!"*
 
 
@@ -141,6 +142,7 @@
 * Select button to attack and enable/disable training mode
 * Custom zooming control with scroll wheel 
 * Custom cursors 
+* Instant-kill attacks
 * Laser sight
 * Trigger bot
 * Auto shoot/rapid fire 
@@ -148,6 +150,7 @@
   * Binding the firing button to the scroll wheel of a mouse
   * Macro setting that will simulate rapid key presses automatically
 * Auto clicker for semi automatic weapons 
+* One-Hit kills
 * Dynamic recoil control  
   * Remove gun revoil game element
   * control bullet spread
