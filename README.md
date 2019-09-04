@@ -148,7 +148,6 @@
 * Select button to attack and enable/disable training mode
 * Custom zooming control with scroll wheel 
 * Custom cursors 
-* Instant-kill attacks
 * Laser sight
 * Trigger bot
 * Move speed
@@ -159,10 +158,9 @@
   * Binding the firing button to the scroll wheel of a mouse
   * Macro setting that will simulate rapid key presses automatically
 * Auto clicker for semi automatic weapons 
-* One-Hit kills
 * Dynamic recoil control  
   * Remove gun revoil game element
-  * control bullet spread
+  * Control bullet spread
 
 
 ---
@@ -173,7 +171,7 @@
 * Wall hacks
   * Glitches with game surfaces
   * Graphics driver modifications that ignore depth checking
-  * draw all objects on the screen
+  * Draw all objects on the screen
 * Reduced flash 
 * Transparent buildings, ceilings, obstacles, and trees
   * Remove visual elements of the game 
