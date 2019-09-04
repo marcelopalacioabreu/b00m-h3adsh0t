@@ -80,6 +80,46 @@
 
 ---
 
+## Client Server Back-End Implementation &#x1F537;
+
+
+
+
+
+---
+
+## Game Statistics and Analytics &#x1F537;
+* Player behavior anomalie detection 
+  * Detected by statistically analyzing game events 
+  * Data sent by client to  server by statistical detection systems
+  * Add human element of supervision system (community/admin team looks over player statistics) 
+  * Unusual player behavior leads to clientside creating then uploading a gamer report
+* Pattern detection systems 
+  * Scan the player's hard drives for known cheat code or programs
+  * Scan the player's system memory for known cheat code or programs
+  * Labor-intensive to constantly track down cheats and update detection patterns
+* Anti–cheat method 
+  * Guaranteed to work on all end–user system configurations
+  * Reduce the amount of false positives
+
+
+---
+
+## User Privacy &#x1F537;
+* End–users concerned with privacy issues
+* VAC (Valve Anti-Cheat) accessing browsing history
+* Man-in-the-middle attack
+  * Security of game circumvented by intercepting or manipulating data in real-time while transit from the client to the server or vice versa 
+  * Performed on client machine itself or via external communication proxy
+* "Never trust the client" common saying with game developers 
+* User privacy compromsed with packet interception/manipulation 
+
+
+
+
+
+---
+
 ## Player Attacks &#x1F537;
 * Select button to attack and enable/disable training mode
 * Custom zooming control with scroll wheel 
