@@ -1,5 +1,5 @@
 # b00m-h3adsh0t &#x1F537;
-**Neural Network Configurable Aimbot for First-Person-Shooter Games** *Note: Aimbots are cheats and illegal in gaming leagues. This repo is solely for educational purposes only.*
+**Neural Network Configurable Aimbot for First-Person-Shooter Games in C/C++** *Note: Aimbots are cheats and illegal in gaming leagues. This repo is solely for educational purposes only.*
 
 > **┬┴┬┴┬┴┤ (҂   ` ﾛ ´)︻デ═一                          ＼(º □ º )/	├┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴┬┴**
 
