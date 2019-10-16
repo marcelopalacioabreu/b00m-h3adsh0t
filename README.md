@@ -18,6 +18,7 @@
 
 * **The catchphrase "Boom, Headshot" was first used by pro gamer FPS_Doug on the web series Pure Pwnage**
 * Game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once
+* B00m-h3adsh0t is 100% written in C/C++ providing a very fast, and efficient framework with scripting support. The framework uses a consistent object-oriented design throughout its many components.
 * Aimbot uses game data to automatically shoot at the heads of energy targets
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
@@ -235,4 +236,6 @@
 
 * MultiPlayer Game Hacking - How to make a aimbot (in C) for any FPS game  https://www.mpgh.net/forum/showthread.php?t=191416
 * Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
+* 2D collision detection headers in C/C++ routines on primitives, boolean results and/or manifold generation, shape cast/sweep test, raycasts/ https://github.com/RandyGaul/cute_headers
+* Multi-threaded game engine written in C++. https://github.com/BearishSun/BansheeEngine
 
