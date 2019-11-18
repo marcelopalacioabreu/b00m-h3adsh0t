@@ -30,8 +30,6 @@
 
 ---
 ## Motivation &#x1F537;
-
-* **"Boom, Headshot" said by pro gamer FPS_Doug on the web series Pure Pwnage**
 * Game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once - Aimbot uses game data to automatically shoot at the heads of energy targets
 
 * B00m-h3adsh0t is 100% written in C/C++ providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
