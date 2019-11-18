@@ -201,7 +201,7 @@
 
 * **Select button to attack and enable/disable training mode**
 * Custom zooming control with scroll wheel 
-* Custom cursors 
+* Custom crosshairs
 * Laser sight
 * Trigger bot
 * Move speed
