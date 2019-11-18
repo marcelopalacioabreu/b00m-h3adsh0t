@@ -25,7 +25,7 @@
 * [Player_Behavior_Statistics](#Player_Behavior_Statistics-)
 * [User_Privacy](#User_Privacy-)
 * [Player_Attacks](#Player_Attacks-) 
-* [Other_Glitches/Modifications](#Other_Glitches/Modifications-) 
+* [Glitches_and_Modifications](#Glitches_and_Modifications-) 
 * [References](#References-) 
 
 ---
@@ -223,7 +223,7 @@
 ---
 
 
-## Other_Glitches/Modifications  &#x1F537;
+## Glitches and Modications &#x1F537;
 
 * Wall hacks
   * Glitches with game surfaces
