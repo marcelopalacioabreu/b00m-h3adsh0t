@@ -223,7 +223,7 @@
 ---
 
 
-## Glitches and Modications &#x1F537;
+## Glitches and Modifications &#x1F537;
 
 * Wall hacks
   * Glitches with game surfaces
