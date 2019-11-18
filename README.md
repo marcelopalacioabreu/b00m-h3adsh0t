@@ -36,7 +36,7 @@
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
   
-  *Image. “Turn off the b00m-h3adsh0t aimbot you noob K/D ratio hacker!"*
+  *Image. “Turn off Lucy's b00m-h3adsh0t aimbot you noob K/D ratio hacker!"*
 
 
 
