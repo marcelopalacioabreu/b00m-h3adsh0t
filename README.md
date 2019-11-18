@@ -29,7 +29,7 @@
 * [References](#References) 
 
 ---
-## General Aimbot Motivation&#x1F537;
+## General_Aimbot_Motivation&#x1F537;
 
 * **"Boom, Headshot" said by pro gamer FPS_Doug on the web series Pure Pwnage**
 * Game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once - Aimbot uses game data to automatically shoot at the heads of energy targets
@@ -44,7 +44,7 @@
 
 ---
 
-## Aimbot Neural Network &#x1F537;
+## Aimbot_Neural_Network &#x1F537;
 
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
 * Select which FPS game you will use 
@@ -65,7 +65,7 @@
 ---
 
 
-## Technical - How Aimbot Works &#x1F537;
+## Technical_How_Aimbot_Works &#x1F537;
 
 * **Aimbot can be easily toggled on and off using the mouse or keyboard**
 * Recognizes game objects in a certain range, then aims at the objects using game physics
@@ -89,7 +89,7 @@
 
 ---
 
-## Technical - How Aimbot with Neural Network Works &#x1F537;
+## Technical_How_Aimbot_with_Neural_Network_Works &#x1F537;
 
 * **Neural Network** 
 
@@ -115,7 +115,7 @@
 
 ---
 
-## Client-Server Back-End Implementation &#x1F537;
+## Client-Server_Back-End_Implementation &#x1F537;
 
 * Computer has to display the gameplay to the user by rendering the whole map and every player in it
 
@@ -140,7 +140,7 @@
 ---
 
 
-## Security and Efficiency Game Server &#x1F537;
+## Security_and_Efficiency_Game_Server &#x1F537;
 
 * Server responsible for information security and enforcing game rules
 
@@ -155,7 +155,7 @@
 
 ---
 
-## Player Behavior Statistics &#x1F537;
+## Player_Behavior_Statistics &#x1F537;
 
 * **Pattern Detection Systems**
   * Scan player's hard drives for known cheat code or programs
@@ -179,7 +179,7 @@
 
 ---
 
-## User Privacy &#x1F537;
+## User_Privacy &#x1F537;
 
 * **End–users concerned with privacy issues and "Never trust the client" is common saying with game developers**
 * VAC (Valve Anti-Cheat) accessing browsing history
@@ -197,7 +197,7 @@
 
 ---
 
-## Player Attacks &#x1F537;
+## Player_Attacks &#x1F537;
 
 * **Select button to attack and enable/disable training mode**
 * Custom zooming control with scroll wheel 
@@ -223,7 +223,7 @@
 ---
 
 
-## Other Glitches/Modifications  &#x1F537;
+## Other_Glitches/Modifications  &#x1F537;
 
 * Wall hacks
   * Glitches with game surfaces
