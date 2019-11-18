@@ -16,20 +16,20 @@
 ## Table_of_Contents &#x1F537;
 
 
-* [General_Aimbot_Motivation](#General_Aimbot_Motivation)
-* [Aimbot_Neural_Network](#Aimbot_Neural_Network)
-* [Technical_How_Aimbot_Works](#Technical_How_Aimbot_Works)
-* [Technical_How_Aimbot_with_Neural_Network_Works large_blue_diamond](#Technical_How_Aimbot_with_Neural_Network_Works)
-* [Client-Server_Back-End_Implementation](#Client-Server_Back-End_Implementation) 
-* [Security_and_Efficiency_Game_Server](#Security_and_Efficiency_Game_Server)
-* [Player_Behavior_Statistics](#Player_Behavior_Statistics)
-* [User_Privacy](#User_Privacy)
-* [Player_Attacks](#Player_Attacks) 
-* [Other_Glitches/Modifications](#Other_Glitches/Modifications) 
-* [References](#References) 
+* [General_Aimbot_Motivation](#General_Aimbot_Motivation-)
+* [Aimbot_Neural_Network](#Aimbot_Neural_Network-)
+* [Technical_How_Aimbot_Works](#Technical_How_Aimbot_Works-)
+* [Technical_How_Aimbot_with_Neural_Network_Works large_blue_diamond](#Technical_How_Aimbot_with_Neural_Network_Works-)
+* [Client-Server_Back-End_Implementation](#Client-Server_Back-End_Implementation-) 
+* [Security_and_Efficiency_Game_Server](#Security_and_Efficiency_Game_Server-)
+* [Player_Behavior_Statistics](#Player_Behavior_Statistics-)
+* [User_Privacy](#User_Privacy-)
+* [Player_Attacks](#Player_Attacks-) 
+* [Other_Glitches/Modifications](#Other_Glitches/Modifications-) 
+* [References](#References-) 
 
 ---
-## General_Aimbot_Motivation&#x1F537;
+## General_Aimbot_Motivation &#x1F537;
 
 * **"Boom, Headshot" said by pro gamer FPS_Doug on the web series Pure Pwnage**
 * Game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once - Aimbot uses game data to automatically shoot at the heads of energy targets
