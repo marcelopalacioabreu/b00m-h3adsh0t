@@ -249,6 +249,7 @@
 
 * MultiPlayer Game Hacking - How to make a aimbot (in C) for any FPS game  https://www.mpgh.net/forum/showthread.php?t=191416
 * Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
+* Easy to learn C++ lol: https://www.codecademy.com/learn/learn-c-plus-plus 
 * 2D collision detection headers in C/C++ routines on primitives, boolean results and/or manifold generation, shape cast/sweep test, raycasts/ https://github.com/RandyGaul/cute_headers
 * Multi-threaded game engine written in C++. https://github.com/BearishSun/BansheeEngine
 
