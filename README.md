@@ -262,6 +262,12 @@
 
 ---
 
+## Testing on FPS games &#x1F537;
+* AssaultCube
+* OpenArena
+* CS:GO
+* Call of Duty
+
 ## References &#x1F537;
 
 * MultiPlayer Game Hacking - How to make a aimbot (in C) for any FPS game  https://www.mpgh.net/forum/showthread.php?t=191416
