@@ -32,7 +32,7 @@
 ## Motivation &#x1F537;
 * B00m-h3adsh0t is a game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once - Aimbot uses game data to automatically shoot at the heads of energy targets
 
-* Personal motivation to get better with C++ compilation programming language. B00m-H3adsh0t IS 100% written in C++ with Visual Studio compiler providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
+* Personal motivation to get better with the C++ compilation programming language. B00m-H3adsh0t is 100% written in C++ with Visual Studio compiler providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
   
@@ -45,9 +45,7 @@
 ## Aimbot_Neural_Network &#x1F537;
 
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
-* Machine Learning neural network technique
-  * Use both **k-NN and SVM without dimensionality reduction** 
-  * **Dynamic Bayesian network** super common for aimbot detection in FPS
+*
 * Select which FPS game you will use 
 * **Engine-Aim with colored models:**
   * Hook into the FPS game engine to use actual game data to auto-aim without altering gaming files
@@ -59,6 +57,9 @@
     *Image. Custom training mode on the aimbot with a range of functionalities*
     
 * Model Training Recognization
+  * Neural network techniques 
+    * Use both **k-NN and SVM without dimensionality reduction** 
+    * **Dynamic Bayesian network** common for aimbot detections in FPS games
   * **Custom training mode**
   * Leverage neural network to detect objects for object recognition using computer vision algorithms
   * Train with range of distances, lights, and angles for best possible recognition  
