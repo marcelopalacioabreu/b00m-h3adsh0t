@@ -48,6 +48,7 @@
 * Select which FPS game you will use 
 * **Engine-Aim with colored models:**
   * Hook into the FPS game engine to use actual game data to auto-aim without altering gaming files
+  * Code won't work by itself because we need a handle to the game
   * Modifies memory of RAM half-life runs on 
   * Gathers information from current game and pixel location
   
@@ -74,9 +75,10 @@
 * **Memory Searcher with Cheat Engine** 
   * Understand the memory storage structures within a game 
   * Searching memory to find the values of the player classes such as player coordinates, health, mouse x,y coordinates, etc.
-  * Use T-Search, OllDbg, or **Cheat engine** (programs that scans memory depending on the search details you give it and returns the memory addresses) 
+  * Use **Cheat engine** to find addresses (programs that scans memory depending on the search details you give it and returns the memory addresses) 
   * Read and write to the game memory 
-    * Call the functions **ReadProcessMemory** and **WriteProcessMemory**
+    * Call the functions **ReadProcessMemory (RPM)** and **WriteProcessMemory (WPM)** 
+    * Use multi-level pointers to access information to playerObjectAddress and 
 * **CalcAngle**
   * Needed to calculate angle functions for aimbot since everything is based on game coordinates
   * Takes two 3D positions in source and distance, and outputs the angle to distance in angles
