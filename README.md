@@ -30,9 +30,9 @@
 
 ---
 ## Motivation &#x1F537;
-* B00m-h3adsh0t is a **game bot software for first-person shooting (FPS) games** where players need to constantly move, think, strategize, and shoot enemies all at once. **Aimbot uses game data to automatically shoot at the heads of energy targets.**
+* **B00m-h3adsh0t is a game bot software for first-person shooting (FPS) games** where players need to constantly move, think, strategize, and shoot enemies all at once. **Aimbot uses game data to automatically shoot at the heads of energy targets.**
 
-* Personal motivation to **learn C++ compiler programming language, object oriented programing, and how a game executes on an operating system**. B00m-H3adsh0t is 100% written in C++ with Visual Studio compiler providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
+* **Personal motivation to learn C++ compiler programming language, object oriented programing, and how a game executes on an operating system**. B00m-H3adsh0t is 100% written in C++ with Visual Studio compiler providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
   
@@ -286,6 +286,7 @@
 * Multi-threaded game engine written in C++. https://github.com/BearishSun/BansheeEngine
 * Multiple classificatoin system for neural networks http://ceur-ws.org/Vol-1659/paper7.pdf
 * How to use Cheat Engine HD https://www.youtube.com/watch?v=EzZ259yac-4#ws
+* Math behind aimbots. Basic review https://guidedhacking.com/threads/aimbot-math-explained.13544/
 * Bayesian Imitation Learning the ROute to Belivable Gamebots.  https://www.researchgate.net/profile/Christian_Bauckhage/publication/258510478_Is_Bayesian_imitation_learning_the_route_to_believable_gamebots/links/0c960539de8012b04e000000/Is-Bayesian-imitation-learning-the-route-to-believable-gamebots.pdf
 * Towards a Fair n Square Aimbot. Machine Learning techniques for spatio-temporal improvements to aimbots. http://vampire-project.de/files/papers/Bauckhage2004-TAF.pdf
 * Server side machine learning classifiers for anti-cheating in games using game logs https://ieeexplore.ieee.org/abstract/document/6633617
