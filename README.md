@@ -45,7 +45,6 @@
 ## Aimbot_Neural_Network &#x1F537;
 
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
-*
 * Select which FPS game you will use 
 * **Engine-Aim with colored models:**
   * Hook into the FPS game engine to use actual game data to auto-aim without altering gaming files
