@@ -30,7 +30,7 @@
 
 ---
 ## Motivation &#x1F537;
-* B00m-h3adsh0t. A game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once - Aimbot uses game data to automatically shoot at the heads of energy targets
+* B00m-h3adsh0t is a game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once - Aimbot uses game data to automatically shoot at the heads of energy targets
 
 * Personal motivation to get better with C++ compilation programming language. B00m-H3adsh0t IS 100% written in C++ with Visual Studio compiler providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
 
