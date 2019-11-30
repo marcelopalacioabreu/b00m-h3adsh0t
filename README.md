@@ -265,5 +265,5 @@
 * Game bot detection. Detecting user injections https://dl.acm.org/citation.cfm?id=1653694
 * Game bot detection. Humans vs NPCs https://dl.acm.org/citation.cfm?id=1517498
 
-**FaZE Censor Martin from Black Ops if you are reading this, I am a big fan please reach out <3**
+**FaZE Censor Martin from Black Ops. If you are reading this, I am a big fan please reach out <3**
 
