@@ -45,6 +45,9 @@
 ## Aimbot_Neural_Network &#x1F537;
 
 * **Trained by neural network (NN) with customizable predictions and dynamic speed settings**
+* Machine Learning neural network technique
+  * Use both **k-NN and SVM without dimensionality reduction** 
+  * **Dynamic Bayesian network** super common for aimbot detection in FPS
 * Select which FPS game you will use 
 * **Engine-Aim with colored models:**
   * Hook into the FPS game engine to use actual game data to auto-aim without altering gaming files
@@ -248,8 +251,16 @@
 ## References &#x1F537;
 
 * MultiPlayer Game Hacking - How to make a aimbot (in C) for any FPS game  https://www.mpgh.net/forum/showthread.php?t=191416
-* Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
+* Machine Learning Paper. Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
 * Easy to learn C++ lol: https://www.codecademy.com/learn/learn-c-plus-plus 
 * 2D collision detection headers in C/C++ routines on primitives, boolean results and/or manifold generation, shape cast/sweep test, raycasts/ https://github.com/RandyGaul/cute_headers
 * Multi-threaded game engine written in C++. https://github.com/BearishSun/BansheeEngine
+* Multiple classificatoin system for neural networks http://ceur-ws.org/Vol-1659/paper7.pdf
+* Bayesian Imitation Learning the ROute to Belivable Gamebots.  https://www.researchgate.net/profile/Christian_Bauckhage/publication/258510478_Is_Bayesian_imitation_learning_the_route_to_believable_gamebots/links/0c960539de8012b04e000000/Is-Bayesian-imitation-learning-the-route-to-believable-gamebots.pdf
+* Towards a Fair n Square Aimbot. Machine Learning techniques for spatio-temporal improvements to aimbots. http://vampire-project.de/files/papers/Bauckhage2004-TAF.pdf
+* Server side machine learning classifiers for anti-cheating in games using game logs https://ieeexplore.ieee.org/abstract/document/6633617
+* Bayesian network paper on aimbot behavior detection. http://www.cs.cuhk.edu.hk/~cslui/PUBLICATION/detect_cheat.pdf
+* Classifier systems for controlling NPCs in games. https://pdfs.semanticscholar.org/68cf/3f5b16c452b004d986dcbdefa6fc28fa1c9b.pdf 
+* Game bot detection. Detecting user injections https://dl.acm.org/citation.cfm?id=1653694
+* Game bot detection. Humans vs NPCs https://dl.acm.org/citation.cfm?id=1517498
 
