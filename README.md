@@ -78,13 +78,16 @@
   * Read and write to the game memory 
     * Call the functions **ReadProcessMemory** and **WriteProcessMemory**
 * **CalcAngle**
-  * everything based on game coordinates.
-  * Takes two 3D positions in src and dst, and outputs the angle to dst in angles
+  * Needed to calculate angle functions for aimbot since everything is based on game coordinates
+  * Takes two 3D positions in source and distance, and outputs the angle to distance in angles
   * Pass in the local player's eye position into src, the target's head in dst, and then set the view angles from angles
-* **Call Game FUnctions** 
+* **Call Game Functions** 
   * For internal hacks where we need to inject DLL 
   * C++ programs call funtion by address via function pointers
-  * Traceline and RayTRace commonly used in aimbots: draws a line between your player and another player and checks if there are objects in the way, if there are no collisions between you and your target, your aimbot should aim and shoot at that target
+  * **Traceline and RayTrace** commonly used in aimbots: 
+    * Draws a line between your player and another player
+    * Checks if there are objects in the way
+    * If there are no collisions between you and your target  your aimbot should aim and shoot at that target
 * **Game Player Detection** 
   * FPS game memory contains the **(X,Y,Z) coordinates of each player for rendering**
   * Aimbot scans memory locations for this information 
