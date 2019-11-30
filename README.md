@@ -32,7 +32,8 @@
 ## Motivation &#x1F537;
 * Game bot software for first-person shooting (FPS) games where players need to constantly move, think, strategize, and shoot enemies all at once - Aimbot uses game data to automatically shoot at the heads of energy targets
 
-* B00m-h3adsh0t is 100% written in C/C++ providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
+* B00m-h3adsh0t is 100% written in C/C++ with Visual Studio compiler providing a very fast, and efficient framework with scripting support such that the framework uses a consistent object-oriented design
+* Personal motivation to get better with C++ compilation programming language
 
   ![](https://github.com/lucylow/b00m-h3adsh0t/blob/master/readme-images/logo2.png)
   
@@ -71,6 +72,20 @@
 * **Aimbot can be easily toggled on and off using the mouse or keyboard**
 * Recognizes game objects in a certain range, then aims at the objects using game physics
 
+* **Memory Searcher with Cheat Engine** 
+  * Understand the memory storage structures within a game 
+  * Searching memory to find the values of the player classes such as player coordinates, health, mouse x,y coordinates, etc.
+  * Use T-Search, OllDbg, or **Cheat engine** (programs that scans memory depending on the search details you give it and returns the memory addresses) 
+  * Read and write to the game memory 
+    * Call the functions **ReadProcessMemory** and **WriteProcessMemory**
+* **CalcAngle**
+  * everything based on game coordinates.
+  * Takes two 3D positions in src and dst, and outputs the angle to dst in angles
+  * Pass in the local player's eye position into src, the target's head in dst, and then set the view angles from angles
+* **Call Game FUnctions** 
+  * For internal hacks where we need to inject DLL 
+  * C++ programs call funtion by address via function pointers
+  * Traceline and RayTRace commonly used in aimbots: draws a line between your player and another player and checks if there are objects in the way, if there are no collisions between you and your target, your aimbot should aim and shoot at that target
 * **Game Player Detection** 
   * FPS game memory contains the **(X,Y,Z) coordinates of each player for rendering**
   * Aimbot scans memory locations for this information 
@@ -255,8 +270,12 @@
 * Easy to learn C++ lol: https://www.codecademy.com/learn/learn-c-plus-plus 
 * 2D collision detection headers in C/C++ routines on primitives, boolean results and/or manifold generation, shape cast/sweep test, raycasts/ https://github.com/RandyGaul/cute_headers
 * Exploting supervised learning techniques on game server collecting game data with decision trees, Naive Bayes, random forest, neural networks, and support vector machines. https://ieeexplore.ieee.org/abstract/document/6032016
+* Call of Duty 4 Wall hack in C++ https://guidedhacking.com/threads/c-call-of-duty-4-wallhack-chams-directx-tutorial.6/
+* Code tutorial for aimbot CounterStrike http://www.d3scene.com/forum/counter-strike-source-hacks/74156-tutorials-c-how-create-aimbot.html
+* CalcAngle alternative. Coding a better aimbot https://www.unknowncheats.me/forum/counterstrike-global-offensive/137492-math-behind-hack-1-coding-better-aimbot-stop-using-calcangle.html
 * Multi-threaded game engine written in C++. https://github.com/BearishSun/BansheeEngine
 * Multiple classificatoin system for neural networks http://ceur-ws.org/Vol-1659/paper7.pdf
+* How to use Cheat Engine HD https://www.youtube.com/watch?v=EzZ259yac-4#ws
 * Bayesian Imitation Learning the ROute to Belivable Gamebots.  https://www.researchgate.net/profile/Christian_Bauckhage/publication/258510478_Is_Bayesian_imitation_learning_the_route_to_believable_gamebots/links/0c960539de8012b04e000000/Is-Bayesian-imitation-learning-the-route-to-believable-gamebots.pdf
 * Towards a Fair n Square Aimbot. Machine Learning techniques for spatio-temporal improvements to aimbots. http://vampire-project.de/files/papers/Bauckhage2004-TAF.pdf
 * Server side machine learning classifiers for anti-cheating in games using game logs https://ieeexplore.ieee.org/abstract/document/6633617
@@ -265,5 +284,5 @@
 * Game bot detection. Detecting user injections https://dl.acm.org/citation.cfm?id=1653694
 * Game bot detection. Humans vs NPCs https://dl.acm.org/citation.cfm?id=1517498
 
-**FaZE Censor Martin from Black Ops. If you are reading this, I am a big fan please reach out <3**
+**FaZE Censor Martin from Black Ops. If you are reading this I am a big fan please reach out <3**
 
