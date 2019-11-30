@@ -254,6 +254,7 @@
 * Machine Learning Paper. Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
 * Easy to learn C++ lol: https://www.codecademy.com/learn/learn-c-plus-plus 
 * 2D collision detection headers in C/C++ routines on primitives, boolean results and/or manifold generation, shape cast/sweep test, raycasts/ https://github.com/RandyGaul/cute_headers
+* Exploting supervised learning techniques on game server collecting game data with decision trees, Naive Bayes, random forest, neural networks, and support vector machines. https://ieeexplore.ieee.org/abstract/document/6032016
 * Multi-threaded game engine written in C++. https://github.com/BearishSun/BansheeEngine
 * Multiple classificatoin system for neural networks http://ceur-ws.org/Vol-1659/paper7.pdf
 * Bayesian Imitation Learning the ROute to Belivable Gamebots.  https://www.researchgate.net/profile/Christian_Bauckhage/publication/258510478_Is_Bayesian_imitation_learning_the_route_to_believable_gamebots/links/0c960539de8012b04e000000/Is-Bayesian-imitation-learning-the-route-to-believable-gamebots.pdf
@@ -263,4 +264,6 @@
 * Classifier systems for controlling NPCs in games. https://pdfs.semanticscholar.org/68cf/3f5b16c452b004d986dcbdefa6fc28fa1c9b.pdf 
 * Game bot detection. Detecting user injections https://dl.acm.org/citation.cfm?id=1653694
 * Game bot detection. Humans vs NPCs https://dl.acm.org/citation.cfm?id=1517498
+
+**FaZE Censor Martin from Black Ops if you are reading this, I am a big fan please reach out <3**
 
