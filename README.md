@@ -78,7 +78,7 @@
   * Use **Cheat engine** to find addresses (programs that scans memory depending on the search details you give it and returns the memory addresses) 
   * Read and write to the game memory 
     * Call the functions **ReadProcessMemory (RPM)** and **WriteProcessMemory (WPM)** 
-    * Use multi-level pointers to access information to playerObjectAddress and 
+    * Use multi-level pointers to access information to playerObjectAddress
 * **CalcAngle**
   * Needed to calculate angle functions for aimbot since everything is based on game coordinates
   * Takes two 3D positions in source and distance, and outputs the angle to distance in angles
@@ -272,6 +272,9 @@
 * OpenArena
 * CS:GO
 * Call of Duty
+
+
+---
 
 ## References &#x1F537;
 
