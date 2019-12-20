@@ -61,11 +61,11 @@
   * Train with range of distances, lights, and angles for best possible recognition  
 ----
 
-## Neural Network Model Training Recognization  &#x1F537;
+## Neural_Network_Model_Training_Recognization &#x1F537;
 
 Neural network techniques : Classification methods in supervised learning 
   
-  1) **K-nearest neighbors (K-NN)** 
+  1) **K-Nearest Neighbors (KNN)** 
       * Non-parametric method used for classification where output is class membership
       * An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small)
       * If k = 1, then the object is simply assigned to the class of that single nearest neighbor. It is the simplest algorithm among all the machine learning algorithms
@@ -78,9 +78,14 @@ Neural network techniques : Classification methods in supervised learning
       * Perform classification by finding the hyper-plane that differentiates the two classes 
 
 
-  3) **Dynamic Bayesian network** 
-      *  Common for aimbot detections in FPS games
-      *  Used for probabilistic modeling and inference in discrete-time
+  3) **Dynamic Bayesian Network** 
+      * Common for aimbot detections in FPS games
+      * Used for probabilistic modeling and inference in discrete-time
+      * C++ code for applications of Dynamic Bayesian Network https://github.com/wengjn/MatlabDBN
+      * DBN++ Data Structures and Algorithms in C++ for Dynamic Bayesian Networks https://github.com/thiagopbueno/dbn-pp
+      * Paper Dynamic Bayesian Neytworks https://www.cs.ubc.ca/~murphyk/Papers/dbnchapter.pdf
+      * Paper A Bayesian Model for Plan Recognition in RTS (Real Time Strategy) Games https://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/viewFile/4062/4416
+      
 
 
 ---
