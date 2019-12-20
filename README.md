@@ -81,10 +81,6 @@ Neural network techniques : Classification methods in supervised learning
   3) **Dynamic Bayesian Network** 
       * Common for aimbot detections in FPS games
       * Used for probabilistic modeling and inference in discrete-time
-      * C++ code for applications of Dynamic Bayesian Network https://github.com/wengjn/MatlabDBN
-      * DBN++ Data Structures and Algorithms in C++ for Dynamic Bayesian Networks https://github.com/thiagopbueno/dbn-pp
-      * Paper Dynamic Bayesian Neytworks https://www.cs.ubc.ca/~murphyk/Papers/dbnchapter.pdf
-      * Paper A Bayesian Model for Plan Recognition in RTS (Real Time Strategy) Games https://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/viewFile/4062/4416
       
 
 
@@ -321,5 +317,9 @@ Neural network techniques : Classification methods in supervised learning
 * Classifier systems for controlling NPCs in games. https://pdfs.semanticscholar.org/68cf/3f5b16c452b004d986dcbdefa6fc28fa1c9b.pdf 
 * Game bot detection. Detecting user injections https://dl.acm.org/citation.cfm?id=1653694
 * Game bot detection. Humans vs NPCs https://dl.acm.org/citation.cfm?id=1517498
+* C++ code for applications of Dynamic Bayesian Network https://github.com/wengjn/MatlabDBN
+* DBN++ Data Structures and Algorithms in C++ for Dynamic Bayesian Networks https://github.com/thiagopbueno/dbn-pp
+* Paper Dynamic Bayesian Neytworks https://www.cs.ubc.ca/~murphyk/Papers/dbnchapter.pdf
+* Paper A Bayesian Model for Plan Recognition in RTS (Real Time Strategy) Games https://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/viewFile/4062/4416
 
 
