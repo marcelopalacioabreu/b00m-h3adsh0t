@@ -59,28 +59,27 @@
 * Neural Network Model Training Recognization
   * Neural network techniques : Classification methods in supervised learning 
   
-  
-      1) **K-nearest neighbors (K-NN)** 
-        * Non-parametric method used for classification where output is class membership
-        * An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small)
-        * If k = 1, then the object is simply assigned to the class of that single nearest neighbor. It is the simplest algorithm among all the machine learning algorithms
-        
-        
-      2) **Support Vector Machine (SVM) without dimensionality reduction** 
-        * Supervised machine learning algorithm
-        * Used mainly for classification problems (ocasionally regression)
-        * Plot each data item as a point in n-dimensional space where n is number of features you have with the value of each feature being the value of a particular coordinate
-        * Perform classification by finding the hyper-plane that differentiates the two classes 
-        
-        
-      3) **Dynamic Bayesian network** 
-        *  Common for aimbot detections in FPS games
-        *  Used for probabilistic modeling and inference in discrete-time
-     
-     
-  * **Custom training mode**
-  * Leverage neural network to detect objects for object recognition using computer vision algorithms
-  * Train with range of distances, lights, and angles for best possible recognition  
+1) **K-nearest neighbors (K-NN)** 
+  * Non-parametric method used for classification where output is class membership
+  * An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small)
+  * If k = 1, then the object is simply assigned to the class of that single nearest neighbor. It is the simplest algorithm among all the machine learning algorithms
+
+
+2) **Support Vector Machine (SVM) without dimensionality reduction** 
+  * Supervised machine learning algorithm
+  * Used mainly for classification problems (ocasionally regression)
+  * Plot each data item as a point in n-dimensional space where n is number of features you have with the value of each feature being the value of a particular coordinate
+  * Perform classification by finding the hyper-plane that differentiates the two classes 
+
+
+3) **Dynamic Bayesian network** 
+  *  Common for aimbot detections in FPS games
+  *  Used for probabilistic modeling and inference in discrete-time
+
+
+* **Custom training mode**
+* Leverage neural network to detect objects for object recognition using computer vision algorithms
+* Train with range of distances, lights, and angles for best possible recognition  
 
 ---
 
