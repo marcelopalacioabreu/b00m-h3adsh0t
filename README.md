@@ -75,11 +75,11 @@
   * Deep reinforcement learning allows bot to learn game features simultaneously along with minimizing a Q-learning objective
 
 **Dynamic Bayesian Network** 
-    * Common for aimbot detections in FPS games
-    * Used for probabilistic modeling and inference in discrete-time
-    * Implementation options: 
-      * libDAI - A free and open source C++ library for Discrete Approximate Inference in graphical models (C++)
-      * Mocapy++ (C++) - A toolkit for inference and learning in dynamic Bayesian networks
+  * Common for aimbot detections in FPS games
+  * Used for probabilistic modeling and inference in discrete-time
+  * Implementation options: 
+    * libDAI - A free and open source C++ library for Discrete Approximate Inference in graphical models (C++)
+    * Mocapy++ (C++) - A toolkit for inference and learning in dynamic Bayesian networks
 
 
 ---
