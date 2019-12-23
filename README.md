@@ -96,6 +96,7 @@ Neural network techniques : Classification methods in supervised learning
   * Understand the memory storage structures within a game 
   * Searching memory to find the values of the player classes such as player coordinates, health, mouse x,y coordinates, etc.
   * Use **Cheat engine** to find addresses (programs that scans memory depending on the search details you give it and returns the memory addresses) 
+  * Base address of "client.dll" (int or DWORD)
   * Read and write to the game memory 
     * Call the functions **ReadProcessMemory (RPM)** and **WriteProcessMemory (WPM)** 
     * Use multi-level pointers to access information to playerObjectAddress
@@ -144,7 +145,7 @@ Neural network techniques : Classification methods in supervised learning
       
 * **Training Depenencies - Trained Files for Games**
 
-    * Use **config.json file** to change the resolution range for object recognition  
+    * Use **b00m-h3adsh0t.cfg file** to change the resolution range for object recognition  
     * Train Files Folder
       * Darknet folder/subfolders 
       * Data or back up
@@ -196,7 +197,7 @@ Neural network techniques : Classification methods in supervised learning
 ---
 
 ## Player_Behavior_Statistics &#x1F537;
-Refer to playerdata.h
+Refer to playerdata.h file 
 
 * **Pattern Detection Systems**
   * Scan player's hard drives for known cheat code or programs
