@@ -26,6 +26,7 @@
 * [User_Privacy](#User_Privacy-)
 * [Player_Attacks](#Player_Attacks-) 
 * [Glitches_and_Modifications](#Glitches_and_Modifications-) 
+* [Conclusion](#Conclusion-) 
 * [References](#References-) 
 
 ---
