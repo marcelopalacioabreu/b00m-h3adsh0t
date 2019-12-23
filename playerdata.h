@@ -1,6 +1,9 @@
 #pragma once
-
 #include <math.h>
+
+// 3D data for each player
+// Memory addresses within "PlayerData" 
+
     class Vect3d
     {
 	public:
@@ -51,7 +54,6 @@
 
 	};
 
-	//memory addresses usually within "PlayerData" 
     class PlayerDataVec
     {
 		public:
