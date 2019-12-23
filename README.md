@@ -62,15 +62,43 @@
 ----
 
 ## Neural_Network_Model_Training_Recognization &#x1F537;
-
-Neural network techniques : Classification methods in supervised learning 
   
-  1) **K-Nearest Neighbors (KNN)** 
-      * Non-parametric method used for classification where output is class membership
-      * An object is classified by a majority vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small)
-      * If k = 1, then the object is simply assigned to the class of that single nearest neighbor. It is the simplest algorithm among all the machine learning algorithms
+Deep Reinforcement Learning (RL)
+
+states are partially observable and agent navigates a 3D
+environment in a first-person perspective, which makes the
+task more suitable for real-world robotics applications.
 
 
+
+We present a method
+to augment these models to exploit game feature information
+such as the presence of enemies or items, during the training
+phase. Our model is trained to simultaneously learn these fea-
+tures along with minimizing a Q-learning objective, which is
+shown to dramatically improve the training speed and perfor-
+mance of our agent. Our architecture is also modularized to
+allow different models to be independently trained for differ-
+ent phases of the game. We show that the proposed architec-
+ture substantially outperforms built-in AI agents of the game
+as well as average humans in deathmatch scenarios.
+
+
+Reinforcement learning deals with learning a policy for an
+agent interacting in an unknown environment. At each step,
+an agent observes the current state s t of the environment,
+decides of an action a t according to a policy π, and observes
+a reward signal r t . The goal of the agent is to find a policy
+that maximizes the expected sum of discounted rewards R t
+
+
+
+We used reinforcement learning (RL), which allows a bot to learn a problem by interacting with its environment. The environment provides a reward or penalty based on how the bot is performing. These values are used to build a map telling the bot which action is good to perform in the current state of the environment. In our game, the bot receives a reward if it collects an item or kills an enemy. If the bot dies, it gets a penalty.
+
+
+ To play the game, we used a Q-Learning adaptation for Deep Learning to train the autonomous agent. In both cases, the input was only the pixels of an image. We show that this single network architecture is suitable for the classification task and is capable of playing the 3D game. 
+ 
+ 
   2) **Support Vector Machine (SVM) without dimensionality reduction** 
       * Supervised machine learning algorithm
       * Used mainly for classification problems (ocasionally regression)
@@ -201,6 +229,11 @@ Neural network techniques : Classification methods in supervised learning
 ## Player_Behavior_Statistics &#x1F537;
 Refer to playerdata.h file 
 
+* **Aimbot Evaluation Metrics**
+  * Compare human player with b00m-h3eadsh0t agent 
+  * K/D Ratio to compare ratio of kills to deaths 
+  * Single player vs multi-player games 
+
 * **Pattern Detection Systems**
   * Scan player's hard drives for known cheat code or programs
   * Scan player's system memory for known cheat code or programs
@@ -291,12 +324,9 @@ Refer to playerdata.h file
 
 ---
 
-## Testing on FPS games &#x1F537;
-* AssaultCube
-* OpenArena
-* CS:GO
-* Call of Duty
+## Conclusion &#x1F537;
 
+In this paper, we have presented a complete architecture for playing deathmatch scenarios in FPS games. We introduced a method to augment a DRQN model with high-level game information, and modularized our architecture to incorporate independent networks responsible for different phases of the game. These methods lead to dramatic improvements over the standard DRQN model when applied to complicated tasks like a deathmatch. We showed that the proposed model is able to outperform built-in bots as well as human players and demonstrated the generalizability of our model to unknown maps. Moreover, our methods are complementary to recent improvements in DQN, and could easily be combined with dueling architectures (?), and prioritized replay (?). 
 
 ---
 
@@ -325,5 +355,6 @@ Refer to playerdata.h file
 * DBN++ Data Structures and Algorithms in C++ for Dynamic Bayesian Networks https://github.com/thiagopbueno/dbn-pp
 * Paper Dynamic Bayesian Neytworks https://www.cs.ubc.ca/~murphyk/Papers/dbnchapter.pdf
 * Paper A Bayesian Model for Plan Recognition in RTS (Real Time Strategy) Games https://www.aaai.org/ocs/index.php/AIIDE/AIIDE11/paper/viewFile/4062/4416
+* Learning to Shoot in First Person Shooter Games by Stabilizing Actions and Clustering Rewards for Reinforcement Learning. https://arxiv.org/pdf/1806.05117.pdf
 
 
