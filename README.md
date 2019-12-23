@@ -81,7 +81,9 @@ Neural network techniques : Classification methods in supervised learning
   3) **Dynamic Bayesian Network** 
       * Common for aimbot detections in FPS games
       * Used for probabilistic modeling and inference in discrete-time
-      
+      * Implementation options: 
+        * libDAI - A free and open source C++ library for Discrete Approximate Inference in graphical models (C++)
+        * Mocapy++ (C++) - A toolkit for inference and learning in dynamic Bayesian networks
 
 
 ---
