@@ -63,55 +63,22 @@
 
 ## Neural_Network_Model_Training_Recognization &#x1F537;
   
-Deep Reinforcement Learning (RL)
+**Deep Reinforcement Learning**
+  * Allows bot to learn how to aim by interacting with its unknown 3D environment. In our game, the bot receives a reward if it correctly kills an enemy, hence the name b00m-h3adsh0. If the bot dies, it gets a penalty.
+  * For each step, bot observes the current state s t of the environment, decides of an action, and observes reward signal where the goal of the agent is to find a policy that maximizes the expected sum of discounted rewards
+  * Game states are partially observable
 
-states are partially observable and agent navigates a 3D
-environment in a first-person perspective, which makes the
-task more suitable for real-world robotics applications.
+**Q-Learning Adaptation**
+  * Used a Q-Learning adaptation for Deep Learning to train the autonomous agent
+  * Inputs are screenshots of the fps game (pixels)
+  * Deep reinforcement learning allows bot to learn game features simultaneously along with minimizing a Q-learning objective
 
-
-
-We present a method
-to augment these models to exploit game feature information
-such as the presence of enemies or items, during the training
-phase. Our model is trained to simultaneously learn these fea-
-tures along with minimizing a Q-learning objective, which is
-shown to dramatically improve the training speed and perfor-
-mance of our agent. Our architecture is also modularized to
-allow different models to be independently trained for differ-
-ent phases of the game. We show that the proposed architec-
-ture substantially outperforms built-in AI agents of the game
-as well as average humans in deathmatch scenarios.
-
-
-Reinforcement learning deals with learning a policy for an
-agent interacting in an unknown environment. At each step,
-an agent observes the current state s t of the environment,
-decides of an action a t according to a policy π, and observes
-a reward signal r t . The goal of the agent is to find a policy
-that maximizes the expected sum of discounted rewards R t
-
-
-
-We used reinforcement learning (RL), which allows a bot to learn a problem by interacting with its environment. The environment provides a reward or penalty based on how the bot is performing. These values are used to build a map telling the bot which action is good to perform in the current state of the environment. In our game, the bot receives a reward if it collects an item or kills an enemy. If the bot dies, it gets a penalty.
-
-
- To play the game, we used a Q-Learning adaptation for Deep Learning to train the autonomous agent. In both cases, the input was only the pixels of an image. We show that this single network architecture is suitable for the classification task and is capable of playing the 3D game. 
- 
- 
-  2) **Support Vector Machine (SVM) without dimensionality reduction** 
-      * Supervised machine learning algorithm
-      * Used mainly for classification problems (ocasionally regression)
-      * Plot each data item as a point in n-dimensional space where n is number of features you have with the value of each feature being the value of a particular coordinate
-      * Perform classification by finding the hyper-plane that differentiates the two classes 
-
-
-  3) **Dynamic Bayesian Network** 
-      * Common for aimbot detections in FPS games
-      * Used for probabilistic modeling and inference in discrete-time
-      * Implementation options: 
-        * libDAI - A free and open source C++ library for Discrete Approximate Inference in graphical models (C++)
-        * Mocapy++ (C++) - A toolkit for inference and learning in dynamic Bayesian networks
+**Dynamic Bayesian Network** 
+    * Common for aimbot detections in FPS games
+    * Used for probabilistic modeling and inference in discrete-time
+    * Implementation options: 
+      * libDAI - A free and open source C++ library for Discrete Approximate Inference in graphical models (C++)
+      * Mocapy++ (C++) - A toolkit for inference and learning in dynamic Bayesian networks
 
 
 ---
@@ -326,7 +293,7 @@ Refer to playerdata.h file
 
 ## Conclusion &#x1F537;
 
-In this paper, we have presented a complete architecture for playing deathmatch scenarios in FPS games. We introduced a method to augment a DRQN model with high-level game information, and modularized our architecture to incorporate independent networks responsible for different phases of the game. These methods lead to dramatic improvements over the standard DRQN model when applied to complicated tasks like a deathmatch. We showed that the proposed model is able to outperform built-in bots as well as human players and demonstrated the generalizability of our model to unknown maps. Moreover, our methods are complementary to recent improvements in DQN, and could easily be combined with dueling architectures (?), and prioritized replay (?). 
+B00m-h3adsh0t! is a single architecture neural network configurable aimbot for first-person shooting (FPS) games. We introduced a method to augment a deep reinforcement q-learning model with high-level game information, and feature implementation. We showed that b00m-h3adsh0t!  model is able to outperform built-in bots as well as human players and demonstrated the generalizability of our model to do game glitches and modifications. 
 
 ---
 
