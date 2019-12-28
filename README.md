@@ -65,8 +65,10 @@
 ## Neural_Network_Model_Training_Recognization &#x1F537;
   
 **Deep Reinforcement Learning**
-  * Allows bot to learn how to aim by interacting with its unknown 3D environment. In our game, the bot receives a reward if it correctly kills an enemy, hence the name b00m-h3adsh0. If the bot dies, it gets a penalty.
-  * For each step, bot observes the current state s t of the environment, decides of an action, and observes reward signal where the goal of the agent is to find a policy that maximizes the expected sum of discounted rewards
+  * Allows bot to learn how to aim by interacting with its unknown 3D environment
+  * Bot receives a reward if it correctly kills an enemy, hence the name b00m-h3adsh0. If the bot dies, it gets a penalty.
+  * For each step, bot observes the current states Ot of the environment and decides of an action
+  * Observes reward signal where the goal of the agent is to find a policy that maximizes the expected sum of discounted rewards
   * Game states are partially observable
 
 **Q-Learning Adaptation**
