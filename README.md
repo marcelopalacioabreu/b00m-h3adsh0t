@@ -304,7 +304,6 @@ B00m-h3adsh0t! is a single architecture neural network configurable aimbot for f
 
 * MultiPlayer Game Hacking - How to make a aimbot (in C) for any FPS game  https://www.mpgh.net/forum/showthread.php?t=191416
 * Machine Learning Paper. Aimbot Detection in Online FPS Games Using a Heuristic Method Based on Distribution Comparison Matrix: https://link.springer.com/chapter/10.1007/978-3-642-34500-5_77
-* Easy to learn C++ lol: https://www.codecademy.com/learn/learn-c-plus-plus 
 * 2D collision detection headers in C/C++ routines on primitives, boolean results and/or manifold generation, shape cast/sweep test, raycasts/ https://github.com/RandyGaul/cute_headers
 * Exploting supervised learning techniques on game server collecting game data with decision trees, Naive Bayes, random forest, neural networks, and support vector machines. https://ieeexplore.ieee.org/abstract/document/6032016
 * Call of Duty 4 Wall hack in C++ https://guidedhacking.com/threads/c-call-of-duty-4-wallhack-chams-directx-tutorial.6/
@@ -312,7 +311,7 @@ B00m-h3adsh0t! is a single architecture neural network configurable aimbot for f
 * CalcAngle alternative. Coding a better aimbot https://www.unknowncheats.me/forum/counterstrike-global-offensive/137492-math-behind-hack-1-coding-better-aimbot-stop-using-calcangle.html
 * Multi-threaded game engine written in C++. https://github.com/BearishSun/BansheeEngine
 * Multiple classificatoin system for neural networks http://ceur-ws.org/Vol-1659/paper7.pdf
-* How to use Cheat Engine HD https://www.youtube.com/watch?v=EzZ259yac-4#ws
+* Cheat Engine HD https://www.youtube.com/watch?v=EzZ259yac-4#ws
 * Math behind aimbots. Basic review https://guidedhacking.com/threads/aimbot-math-explained.13544/
 * Bayesian Imitation Learning the ROute to Belivable Gamebots.  https://www.researchgate.net/profile/Christian_Bauckhage/publication/258510478_Is_Bayesian_imitation_learning_the_route_to_believable_gamebots/links/0c960539de8012b04e000000/Is-Bayesian-imitation-learning-the-route-to-believable-gamebots.pdf
 * Towards a Fair n Square Aimbot. Machine Learning techniques for spatio-temporal improvements to aimbots. http://vampire-project.de/files/papers/Bauckhage2004-TAF.pdf
